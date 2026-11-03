@@ -9,8 +9,16 @@ def test_severity_sets_the_starting_priority():
     assert [compute_priority(s, False, at) for s in ("critical", "major", "minor", "cosmetic")] == ["P1", "P2", "P3", "P4"]
 
 
-def test_customer_facing_is_raised_one_level_during_the_day():
+def test_customer_facing_is_raised_one_level_tuesday_during_the_day():
     assert compute_priority("major", True, chicago(2026, 10, 13, 14, 0)) == "P1"
+
+
+def test_customer_facing_is_raised_one_level_tuesday_at_night():
+    assert compute_priority("major", True, chicago(2026, 10, 13, 23, 30)) == "P1"
+
+
+def test_customer_facing_is_raised_one_level_on_saturday():
+    assert compute_priority("major", True, chicago(2026, 10, 17, 10, 0)) == "P1"
 
 
 def test_p1_stays_p1():
