@@ -13,6 +13,10 @@ def test_customer_facing_is_raised_one_level_during_the_day():
     assert compute_priority("major", True, chicago(2026, 10, 13, 14, 0)) == "P1"
 
 
+def test_customer_facing_is_raised_one_level_at_night():
+    assert compute_priority("major", True, chicago(2026, 10, 13, 23, 30)) == "P1"
+
+
 def test_p1_stays_p1():
     assert compute_priority("critical", True, chicago(2026, 10, 13, 14, 0)) == "P1"
 
