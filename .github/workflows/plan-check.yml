@@ -1,0 +1,40 @@
+name: plan-check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  plan-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: A plan pull request changes only the plan
+        env:
+          BASE: ${{ github.base_ref }}
+        run: |
+          git diff --name-only "origin/$BASE...HEAD" > changed.txt
+          cat changed.txt
+          if ! grep -q '^docs/plans/' changed.txt; then
+            echo "Not a plan pull request: nothing to check."
+            exit 0
+          fi
+          if grep -v '^docs/plans/' changed.txt; then
+            echo "A plan pull request may change only docs/plans/."
+            exit 1
+          fi
+      - name: Every plan has all five sections
+        env:
+          BASE: ${{ github.base_ref }}
+        run: |
+          for f in $(git diff --name-only "origin/$BASE...HEAD" -- docs/plans/); do
+            for s in "## Goal" "## Steps" "## Tests" "## Risks" "## Out of scope"; do
+              grep -q "^$s" "$f" || { echo "$f has no section: $s"; exit 1; }
+            done
+          done
+          echo "Every plan has all five sections."
