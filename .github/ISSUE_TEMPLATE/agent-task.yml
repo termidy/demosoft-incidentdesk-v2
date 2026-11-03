@@ -1,0 +1,37 @@
+name: Agent task
+description: A task for a coding agent - what it reads, what changes, and how we know it is done.
+labels: ["agent-task"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Who asked, what is wrong, why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs
+      description: The files, documents and data the agent should read first.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Expected change
+      description: What is different when the work is done.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Success criteria
+      description: Checks a reviewer can run, one per line. Include the tests that must exist.
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What the agent must not change.
