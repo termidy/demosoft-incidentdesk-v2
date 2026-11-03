@@ -6,6 +6,8 @@ from datetime import date
 
 import pytz
 
+from incidentdesk import __version__
+
 
 def cmd_serve(args) -> None:
     import uvicorn
@@ -47,6 +49,7 @@ def cmd_report(args) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="incidentdesk", description="DemoSoft's incident management service")
+    parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     sub = parser.add_subparsers(dest="command", required=True)
 
     serve = sub.add_parser("serve", help="run the HTTP API")
