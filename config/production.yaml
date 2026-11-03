@@ -1,0 +1,18 @@
+# Production settings of IncidentDesk. Changes go through Mei Tanaka (SRE) and the deployment environment
+# `production`. Secrets are never written here: the deploy job reads them from the environment's secrets.
+service:
+  timezone: America/Chicago
+  public_url: https://incidentdesk.demosoft.example
+database:
+  host: incidentdesk-db.prod.democloud.example
+  name: incidentdesk
+  pool_size: 20
+  user_secret: PROD_DB_USER
+  password_secret: PROD_DB_PASSWORD
+notifications:
+  email_from: incidents@demosoft.example
+  chat_webhook_secret: PROD_CHAT_WEBHOOK
+sla:
+  breach_check_minutes: 5
+retention:
+  keep_resolved_days: 365

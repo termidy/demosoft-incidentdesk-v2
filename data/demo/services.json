@@ -1,0 +1,86 @@
+[
+ {
+  "slug": "login-service",
+  "name": "Login Service",
+  "team": "identity",
+  "rotation": "amer",
+  "customer_facing": true
+ },
+ {
+  "slug": "checkout-api",
+  "name": "Checkout API",
+  "team": "payments",
+  "rotation": "amer",
+  "customer_facing": true
+ },
+ {
+  "slug": "billing-service",
+  "name": "Billing Service",
+  "team": "payments",
+  "rotation": "amer",
+  "customer_facing": true
+ },
+ {
+  "slug": "mobile-gateway",
+  "name": "Mobile Gateway",
+  "team": "mobile",
+  "rotation": "amer",
+  "customer_facing": true
+ },
+ {
+  "slug": "search-api",
+  "name": "Search API",
+  "team": "discovery",
+  "rotation": "emea",
+  "customer_facing": true
+ },
+ {
+  "slug": "file-storage",
+  "name": "File Storage",
+  "team": "platform",
+  "rotation": "emea",
+  "customer_facing": true
+ },
+ {
+  "slug": "status-page",
+  "name": "Status Page",
+  "team": "sre",
+  "rotation": "amer",
+  "customer_facing": true
+ },
+ {
+  "slug": "notification-service",
+  "name": "Notification Service",
+  "team": "platform",
+  "rotation": "emea",
+  "customer_facing": false
+ },
+ {
+  "slug": "reporting-service",
+  "name": "Reporting Service",
+  "team": "data",
+  "rotation": "apac",
+  "customer_facing": false
+ },
+ {
+  "slug": "incident-webhooks",
+  "name": "Incident Webhooks",
+  "team": "sre",
+  "rotation": "amer",
+  "customer_facing": false
+ },
+ {
+  "slug": "audit-log",
+  "name": "Audit Log",
+  "team": "security",
+  "rotation": "apac",
+  "customer_facing": false
+ },
+ {
+  "slug": "admin-console",
+  "name": "Admin Console",
+  "team": "identity",
+  "rotation": "emea",
+  "customer_facing": false
+ }
+]

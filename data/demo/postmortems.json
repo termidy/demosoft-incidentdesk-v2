@@ -1,0 +1,290 @@
+[
+ {
+  "key": "PM-101",
+  "incident": "INC-4708",
+  "title": "Billing service is down",
+  "summary": "Billing Service is down for 81 minutes.",
+  "impact": "About 12% of requests to billing-service failed.",
+  "root_cause": "A dependency released a breaking change that our version range allowed.",
+  "actions": [
+   "Automate certificate rotation checks",
+   "Move reports to the read replica"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-08-17T20:54:00Z"
+ },
+ {
+  "key": "PM-102",
+  "incident": "INC-4734",
+  "title": "Status page: database connections exhausted",
+  "summary": "status page: database connections exhausted for 21 minutes.",
+  "impact": "About 25% of requests to status-page failed.",
+  "root_cause": "A slow query locked the incidents table during a report run.",
+  "actions": [
+   "Add an alert on connection pool saturation",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-08-23T10:30:00Z"
+ },
+ {
+  "key": "PM-103",
+  "incident": "INC-4761",
+  "title": "Search api returns 503 for all requests",
+  "summary": "search api returns 503 for all requests for 81 minutes.",
+  "impact": "About 34% of requests to search-api failed.",
+  "root_cause": "A dependency released a breaking change that our version range allowed.",
+  "actions": [
+   "Add a runbook link to the alert",
+   "Add an alert on connection pool saturation"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-08-31T05:23:00Z"
+ },
+ {
+  "key": "PM-104",
+  "incident": "INC-4767",
+  "title": "Login service returns 503 for all requests",
+  "summary": "login service returns 503 for all requests for 48 minutes.",
+  "impact": "About 25% of requests to login-service failed.",
+  "root_cause": "Certificate rotation missed one load balancer.",
+  "actions": [
+   "Add a runbook link to the alert",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Tomás Silva",
+  "published_at": "2026-09-01T21:55:00Z"
+ },
+ {
+  "key": "PM-105",
+  "incident": "INC-4772",
+  "title": "Checkout api is down",
+  "summary": "Checkout API is down for 44 minutes.",
+  "impact": "About 27% of requests to checkout-api failed.",
+  "root_cause": "A configuration change lowered the connection pool size.",
+  "actions": [
+   "Add an alert on connection pool saturation",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Mei Tanaka",
+  "published_at": "2026-09-04T17:42:00Z"
+ },
+ {
+  "key": "PM-106",
+  "incident": "INC-4774",
+  "title": "Mobile gateway returns 503 for all requests",
+  "summary": "Mobile Gateway returns 503 for all requests for 30 minutes.",
+  "impact": "About 20% of requests to mobile-gateway failed.",
+  "root_cause": "A configuration change lowered the connection pool size.",
+  "actions": [
+   "Move reports to the read replica",
+   "Add a runbook link to the alert"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-09-03T22:29:00Z"
+ },
+ {
+  "key": "PM-107",
+  "incident": "INC-4784",
+  "title": "Audit log is down",
+  "summary": "Audit Log is down for 53 minutes.",
+  "impact": "About 31% of requests to audit-log failed.",
+  "root_cause": "Certificate rotation missed one load balancer.",
+  "actions": [
+   "Pin the dependency and review upgrades weekly",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-09-06T08:59:00Z"
+ },
+ {
+  "key": "PM-108",
+  "incident": "INC-4810",
+  "title": "Checkout api is down",
+  "summary": "Checkout API is down for 73 minutes.",
+  "impact": "About 15% of requests to checkout-api failed.",
+  "root_cause": null,
+  "actions": [],
+  "author": "Tomás Silva",
+  "published_at": null
+ },
+ {
+  "key": "PM-109",
+  "incident": "INC-4813",
+  "title": "File storage is down",
+  "summary": "File Storage is down for 92 minutes.",
+  "impact": "About 15% of requests to file-storage failed.",
+  "root_cause": "Certificate rotation missed one load balancer.",
+  "actions": [
+   "Pin the dependency and review upgrades weekly",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Mei Tanaka",
+  "published_at": "2026-09-13T17:06:00Z"
+ },
+ {
+  "key": "PM-110",
+  "incident": "INC-4826",
+  "title": "Reporting service is down",
+  "summary": "Reporting Service is down for 31 minutes.",
+  "impact": "About 3% of requests to reporting-service failed.",
+  "root_cause": "A configuration change lowered the connection pool size.",
+  "actions": [
+   "Add an alert on connection pool saturation",
+   "Add a runbook link to the alert"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-09-16T13:48:00Z"
+ },
+ {
+  "key": "PM-111",
+  "incident": "INC-4827",
+  "title": "Search api: database connections exhausted",
+  "summary": "Search API: database connections exhausted for 14 minutes.",
+  "impact": "About 15% of requests to search-api failed.",
+  "root_cause": "A dependency released a breaking change that our version range allowed.",
+  "actions": [
+   "Load test the new configuration before rollout",
+   "Pin the dependency and review upgrades weekly"
+  ],
+  "author": "Mei Tanaka",
+  "published_at": "2026-09-15T18:24:00Z"
+ },
+ {
+  "key": "PM-112",
+  "incident": "INC-4848",
+  "title": "Checkout api is down",
+  "summary": "Checkout API is down for 16 minutes.",
+  "impact": "About 22% of requests to checkout-api failed.",
+  "root_cause": "A slow query locked the incidents table during a report run.",
+  "actions": [
+   "Move reports to the read replica",
+   "Automate certificate rotation checks"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-09-18T20:14:00Z"
+ },
+ {
+  "key": "PM-113",
+  "incident": "INC-4851",
+  "title": "Admin console is down",
+  "summary": "admin console is down for 56 minutes.",
+  "impact": "About 9% of requests to admin-console failed.",
+  "root_cause": "A configuration change lowered the connection pool size.",
+  "actions": [
+   "Move reports to the read replica",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-09-20T04:55:00Z"
+ },
+ {
+  "key": "PM-114",
+  "incident": "INC-4871",
+  "title": "Login service: database connections exhausted",
+  "summary": "Login Service: database connections exhausted for 93 minutes.",
+  "impact": "About 26% of requests to login-service failed.",
+  "root_cause": "A slow query locked the incidents table during a report run.",
+  "actions": [
+   "Add a runbook link to the alert",
+   "Add an alert on connection pool saturation"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-09-26T01:11:00Z"
+ },
+ {
+  "key": "PM-115",
+  "incident": "INC-4873",
+  "title": "Audit log: database connections exhausted",
+  "summary": "Audit Log: database connections exhausted for 11 minutes.",
+  "impact": "About 21% of requests to audit-log failed.",
+  "root_cause": "A dependency released a breaking change that our version range allowed.",
+  "actions": [
+   "Pin the dependency and review upgrades weekly",
+   "Automate certificate rotation checks"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-09-26T07:50:00Z"
+ },
+ {
+  "key": "PM-116",
+  "incident": "INC-4894",
+  "title": "Incident webhooks is down",
+  "summary": "Incident Webhooks is down for 90 minutes.",
+  "impact": "About 15% of requests to incident-webhooks failed.",
+  "root_cause": "A configuration change lowered the connection pool size.",
+  "actions": [
+   "Move reports to the read replica",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-10-01T12:08:00Z"
+ },
+ {
+  "key": "PM-117",
+  "incident": "INC-4906",
+  "title": "Billing service: database connections exhausted",
+  "summary": "Billing Service: database connections exhausted for 21 minutes.",
+  "impact": "About 37% of requests to billing-service failed.",
+  "root_cause": null,
+  "actions": [],
+  "author": "Tomás Silva",
+  "published_at": null
+ },
+ {
+  "key": "PM-118",
+  "incident": "INC-4910",
+  "title": "Search api: database connections exhausted",
+  "summary": "Search API: database connections exhausted for 28 minutes.",
+  "impact": "About 28% of requests to search-api failed.",
+  "root_cause": "Certificate rotation missed one load balancer.",
+  "actions": [
+   "Pin the dependency and review upgrades weekly",
+   "Add an alert on connection pool saturation"
+  ],
+  "author": "Mei Tanaka",
+  "published_at": "2026-10-05T04:20:00Z"
+ },
+ {
+  "key": "PM-119",
+  "incident": "INC-4919",
+  "title": "Notification service is down",
+  "summary": "notification service is down for 13 minutes.",
+  "impact": "About 27% of requests to notification-service failed.",
+  "root_cause": "A dependency released a breaking change that our version range allowed.",
+  "actions": [
+   "Add an alert on connection pool saturation",
+   "Add a runbook link to the alert"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-10-08T01:23:00Z"
+ },
+ {
+  "key": "PM-120",
+  "incident": "INC-4938",
+  "title": "File storage returns 503 for all requests",
+  "summary": "file storage returns 503 for all requests for 76 minutes.",
+  "impact": "About 25% of requests to file-storage failed.",
+  "root_cause": "A configuration change lowered the connection pool size.",
+  "actions": [
+   "Add an alert on connection pool saturation",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Grace Okafor",
+  "published_at": "2026-10-11T14:25:00Z"
+ },
+ {
+  "key": "PM-121",
+  "incident": "INC-4939",
+  "title": "Login service returns 503 for all requests",
+  "summary": "Login Service returns 503 for all requests for 81 minutes.",
+  "impact": "About 27% of requests to login-service failed.",
+  "root_cause": "A slow query locked the incidents table during a report run.",
+  "actions": [
+   "Add a runbook link to the alert",
+   "Load test the new configuration before rollout"
+  ],
+  "author": "Daniel Kowalski",
+  "published_at": "2026-10-11T00:53:00Z"
+ }
+]

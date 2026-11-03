@@ -1,0 +1,7317 @@
+[
+ {
+  "key": "INC-4701",
+  "title": "File Storage: typo on error page",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-16T00:00:00Z",
+  "acknowledged_at": "2026-08-16T13:21:00Z",
+  "resolved_at": "2026-08-26T10:54:00Z",
+  "waiting_seconds": 12960,
+  "timeline": [
+   {
+    "at": "2026-08-16T00:00:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-16T13:21:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T10:54:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4702",
+  "title": "Login Service fails for some customers",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-15T20:01:00Z",
+  "acknowledged_at": "2026-08-15T20:27:00Z",
+  "resolved_at": "2026-08-15T22:41:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-15T20:01:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-15T20:27:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-15T22:41:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4703",
+  "title": "Login Service fails for some customers",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-16T09:29:00Z",
+  "acknowledged_at": "2026-08-16T09:33:00Z",
+  "resolved_at": "2026-08-16T17:39:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-16T09:29:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-16T09:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-16T17:39:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4704",
+  "title": "Reporting Service: disk usage at 85%",
+  "service": "reporting-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-16T20:35:00Z",
+  "acknowledged_at": "2026-08-16T21:10:00Z",
+  "resolved_at": "2026-08-20T01:37:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-16T20:35:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-16T21:10:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T01:37:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4705",
+  "title": "Status Page: typo on error page",
+  "service": "status-page",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-16T19:03:00Z",
+  "acknowledged_at": "2026-08-18T01:53:00Z",
+  "resolved_at": "2026-08-21T03:30:00Z",
+  "waiting_seconds": 7800,
+  "timeline": [
+   {
+    "at": "2026-08-16T19:03:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-18T01:53:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T03:30:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4706",
+  "title": "Audit Log: p95 latency above 2s",
+  "service": "audit-log",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-16T22:11:00Z",
+  "acknowledged_at": "2026-08-16T22:24:00Z",
+  "resolved_at": "2026-08-17T02:12:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-16T22:11:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-16T22:24:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-17T02:12:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4707",
+  "title": "Audit Log: p95 latency above 2s",
+  "service": "audit-log",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-16T20:40:00Z",
+  "acknowledged_at": "2026-08-16T21:00:00Z",
+  "resolved_at": "2026-08-17T05:49:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-16T20:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-16T21:00:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-17T05:49:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4708",
+  "title": "Billing Service is down",
+  "service": "billing-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-17T16:40:00Z",
+  "acknowledged_at": "2026-08-17T16:50:00Z",
+  "resolved_at": "2026-08-17T20:54:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-17T16:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-17T16:50:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-17T20:54:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4709",
+  "title": "  mobile gateway: wrong icon in admin view ",
+  "service": "mobile-gateway",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-18T11:09:00Z",
+  "acknowledged_at": "2026-08-19T14:25:00Z",
+  "resolved_at": "2026-08-31T11:13:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-18T11:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T14:25:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T11:13:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4710",
+  "title": "Incident Webhooks: error rate above 5%",
+  "service": "incident-webhooks",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-18T00:05:00Z",
+  "acknowledged_at": "2026-08-18T00:24:00Z",
+  "resolved_at": "2026-08-18T03:08:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-18T00:05:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-18T00:24:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-18T03:08:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4711",
+  "title": "Notification Service fails for some customers",
+  "service": "notification-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-18T11:38:00Z",
+  "acknowledged_at": "2026-08-18T12:11:00Z",
+  "resolved_at": "2026-08-18T15:03:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-18T11:38:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-18T12:11:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-18T15:03:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4712",
+  "title": "Incident Webhooks: slow responses in one region",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-19T04:28:00Z",
+  "acknowledged_at": "2026-08-19T07:05:00Z",
+  "resolved_at": "2026-08-22T07:12:00Z",
+  "waiting_seconds": 12180,
+  "timeline": [
+   {
+    "at": "2026-08-19T04:28:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T07:05:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-22T07:12:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4713",
+  "title": "Incident Webhooks: slow responses in one region",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-19T04:30:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-08-19T04:30:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-19T04:30:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T04:30:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4712"
+   }
+  ]
+ },
+ {
+  "key": "INC-4714",
+  "title": "Incident Webhooks: slow responses in one region",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-19T04:32:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-08-19T04:32:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-19T04:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T04:32:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4712"
+   }
+  ]
+ },
+ {
+  "key": "INC-4715",
+  "title": "Status Page: disk usage at 85%",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-19T14:15:00Z",
+  "acknowledged_at": "2026-08-19T14:28:00Z",
+  "resolved_at": "2026-08-19T23:38:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-19T14:15:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T14:28:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T23:38:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4716",
+  "title": "Checkout API: p95 latency above 2s",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-19T07:28:00Z",
+  "acknowledged_at": "2026-08-19T07:38:00Z",
+  "resolved_at": "2026-08-19T17:29:00Z",
+  "waiting_seconds": 2880,
+  "timeline": [
+   {
+    "at": "2026-08-19T07:28:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T07:38:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T17:29:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4717",
+  "title": "Admin Console: disk usage at 85%",
+  "service": "admin-console",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-19T13:39:00Z",
+  "acknowledged_at": "2026-08-19T17:11:00Z",
+  "resolved_at": "2026-08-19T23:30:00Z",
+  "waiting_seconds": 12960,
+  "timeline": [
+   {
+    "at": "2026-08-19T13:39:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T17:11:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T23:30:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4718",
+  "title": "Incident Webhooks: wrong icon in admin view",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-18T21:40:00Z",
+  "acknowledged_at": "2026-08-20T02:04:00Z",
+  "resolved_at": "2026-08-26T10:44:00Z",
+  "waiting_seconds": 2880,
+  "timeline": [
+   {
+    "at": "2026-08-18T21:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T02:04:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T10:44:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4719",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-20T10:11:00Z",
+  "acknowledged_at": "2026-08-20T13:18:00Z",
+  "resolved_at": "2026-08-21T04:36:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-20T10:11:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T13:18:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T04:36:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4720",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-20T10:13:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-08-20T10:13:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-20T10:13:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T10:13:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4719"
+   }
+  ]
+ },
+ {
+  "key": "INC-4721",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-20T10:15:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-08-20T10:15:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-20T10:15:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T10:15:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4719"
+   }
+  ]
+ },
+ {
+  "key": "INC-4722",
+  "title": "Login Service: typo on error page",
+  "service": "login-service",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-19T16:08:00Z",
+  "acknowledged_at": "2026-08-19T17:33:00Z",
+  "resolved_at": "2026-08-22T22:29:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-19T16:08:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-19T17:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-22T22:29:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4723",
+  "title": "Login Service: p95 latency above 2s",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-20T06:07:00Z",
+  "acknowledged_at": "2026-08-20T06:24:00Z",
+  "resolved_at": "2026-08-20T10:03:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-20T06:07:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T06:24:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T10:03:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4724",
+  "title": "Admin Console: wrong icon in admin view",
+  "service": "admin-console",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-21T04:52:00Z",
+  "acknowledged_at": "2026-08-21T18:57:00Z",
+  "resolved_at": "2026-08-29T04:59:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-21T04:52:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T18:57:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-29T04:59:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4725",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-20T21:23:00Z",
+  "acknowledged_at": "2026-08-20T21:41:00Z",
+  "resolved_at": "2026-08-21T02:01:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-20T21:23:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-20T21:41:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T02:01:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4726",
+  "title": "File Storage: typo on error page",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-20T23:59:00Z",
+  "acknowledged_at": "2026-08-21T10:33:00Z",
+  "resolved_at": "2026-08-26T08:12:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-20T23:59:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T10:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T08:12:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4727",
+  "title": "File Storage: typo on error page",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-21T00:01:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-08-21T00:01:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-21T00:01:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T00:01:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4726"
+   }
+  ]
+ },
+ {
+  "key": "INC-4728",
+  "title": "Checkout API: slow responses in one region",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-22T14:25:00Z",
+  "acknowledged_at": "2026-08-22T19:18:00Z",
+  "resolved_at": "2026-08-25T00:57:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-22T14:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-22T19:18:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T00:57:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4729",
+  "title": "  search api: p95 latency above 2s ",
+  "service": "search-api",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-21T18:12:00Z",
+  "acknowledged_at": "2026-08-21T18:15:00Z",
+  "resolved_at": "2026-08-21T21:54:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-21T18:12:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T18:15:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-21T21:54:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4730",
+  "title": "  file storage: slow responses in one region ",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-22T09:33:00Z",
+  "acknowledged_at": "2026-08-22T11:06:00Z",
+  "resolved_at": "2026-08-24T17:41:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-22T09:33:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-22T11:06:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-24T17:41:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4731",
+  "title": "  reporting service: retries increasing ",
+  "service": "reporting-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-22T00:26:00Z",
+  "acknowledged_at": "2026-08-22T00:47:00Z",
+  "resolved_at": "2026-08-24T12:14:00Z",
+  "waiting_seconds": 15780,
+  "timeline": [
+   {
+    "at": "2026-08-22T00:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-22T00:47:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-24T12:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4732",
+  "title": "Login Service: retries increasing",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-22T14:17:00Z",
+  "acknowledged_at": "2026-08-22T18:44:00Z",
+  "resolved_at": "2026-08-23T03:27:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-22T14:17:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-22T18:44:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T03:27:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4733",
+  "title": "Admin Console: wrong icon in admin view",
+  "service": "admin-console",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-23T08:39:00Z",
+  "acknowledged_at": "2026-08-24T02:29:00Z",
+  "resolved_at": "2026-08-29T01:34:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-23T08:39:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-24T02:29:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-29T01:34:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4734",
+  "title": "  status page: database connections exhausted ",
+  "service": "status-page",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-23T06:49:00Z",
+  "acknowledged_at": "2026-08-23T07:03:00Z",
+  "resolved_at": "2026-08-23T10:30:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-23T06:49:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T07:03:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T10:30:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4735",
+  "title": "Status Page: disk usage at 85%",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-23T08:54:00Z",
+  "acknowledged_at": "2026-08-23T09:06:00Z",
+  "resolved_at": "2026-08-26T22:11:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-23T08:54:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T09:06:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T22:11:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4736",
+  "title": "Audit Log: slow responses in one region",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-24T12:40:00Z",
+  "acknowledged_at": "2026-08-24T17:32:00Z",
+  "resolved_at": "2026-08-25T21:19:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-24T12:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-24T17:32:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T21:19:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4737",
+  "title": "Billing Service: slow responses in one region",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-23T22:19:00Z",
+  "acknowledged_at": "2026-08-23T23:28:00Z",
+  "resolved_at": "2026-08-26T11:55:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-23T22:19:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T23:28:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T11:55:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4738",
+  "title": "Reporting Service: typo on error page",
+  "service": "reporting-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-24T03:49:00Z",
+  "acknowledged_at": "2026-08-25T05:26:00Z",
+  "resolved_at": "2026-08-30T13:06:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-24T03:49:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T05:26:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T13:06:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4739",
+  "title": "Login Service: p95 latency above 2s",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-23T16:39:00Z",
+  "acknowledged_at": "2026-08-23T17:14:00Z",
+  "resolved_at": "2026-08-23T23:19:00Z",
+  "waiting_seconds": 11520,
+  "timeline": [
+   {
+    "at": "2026-08-23T16:39:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T17:14:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T23:19:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4740",
+  "title": "Reporting Service: typo on error page",
+  "service": "reporting-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-23T18:51:00Z",
+  "acknowledged_at": "2026-08-23T22:20:00Z",
+  "resolved_at": "2026-09-03T06:11:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-23T18:51:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-23T22:20:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T06:11:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4741",
+  "title": "Login Service: wrong icon in admin view",
+  "service": "login-service",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-24T18:16:00Z",
+  "acknowledged_at": "2026-08-24T19:41:00Z",
+  "resolved_at": "2026-08-27T05:38:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-24T18:16:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-24T19:41:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-27T05:38:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4742",
+  "title": "Search API: slow responses in one region",
+  "service": "search-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-25T13:22:00Z",
+  "acknowledged_at": "2026-08-25T15:30:00Z",
+  "resolved_at": "2026-08-29T03:34:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-25T13:22:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T15:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-29T03:34:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4743",
+  "title": "Notification Service: typo on error page",
+  "service": "notification-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-24T21:32:00Z",
+  "acknowledged_at": "2026-08-25T07:34:00Z",
+  "resolved_at": "2026-08-26T05:05:00Z",
+  "waiting_seconds": 13980,
+  "timeline": [
+   {
+    "at": "2026-08-24T21:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T07:34:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T05:05:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4744",
+  "title": "File Storage fails for some customers",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-25T00:16:00Z",
+  "acknowledged_at": "2026-08-25T00:55:00Z",
+  "resolved_at": "2026-08-25T01:28:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-25T00:16:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T00:55:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T01:28:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4745",
+  "title": "Checkout API: slow responses in one region",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-25T12:27:00Z",
+  "acknowledged_at": "2026-08-25T17:17:00Z",
+  "resolved_at": "2026-08-28T01:52:00Z",
+  "waiting_seconds": 8820,
+  "timeline": [
+   {
+    "at": "2026-08-25T12:27:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-25T17:17:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-28T01:52:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4746",
+  "title": "  audit log: disk usage at 85% ",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-26T07:36:00Z",
+  "acknowledged_at": "2026-08-26T12:44:00Z",
+  "resolved_at": "2026-08-27T10:37:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-26T07:36:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T12:44:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-27T10:37:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4747",
+  "title": "Incident Webhooks: typo on error page",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-26T11:17:00Z",
+  "acknowledged_at": "2026-08-26T16:16:00Z",
+  "resolved_at": "2026-09-07T07:34:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-26T11:17:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-26T16:16:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T07:34:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4748",
+  "title": "Checkout API: disk usage at 85%",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-27T01:59:00Z",
+  "acknowledged_at": "2026-08-27T06:45:00Z",
+  "resolved_at": "2026-08-30T03:16:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-27T01:59:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-27T06:45:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T03:16:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4749",
+  "title": "Status Page fails for some customers",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-27T06:30:00Z",
+  "acknowledged_at": "2026-08-27T06:34:00Z",
+  "resolved_at": "2026-08-27T12:10:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-27T06:30:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-27T06:34:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-27T12:10:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4750",
+  "title": "Mobile Gateway: wrong icon in admin view",
+  "service": "mobile-gateway",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-28T12:09:00Z",
+  "acknowledged_at": "2026-08-29T09:22:00Z",
+  "resolved_at": "2026-09-06T10:40:00Z",
+  "waiting_seconds": 1500,
+  "timeline": [
+   {
+    "at": "2026-08-28T12:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-29T09:22:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T10:40:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4751",
+  "title": "Status Page: retries increasing",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-28T12:53:00Z",
+  "acknowledged_at": "2026-08-28T15:13:00Z",
+  "resolved_at": "2026-08-31T16:16:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-28T12:53:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-28T15:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T16:16:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4752",
+  "title": "Admin Console: slow responses in one region",
+  "service": "admin-console",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-28T16:21:00Z",
+  "acknowledged_at": "2026-08-28T17:52:00Z",
+  "resolved_at": "2026-08-30T16:14:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-28T16:21:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-28T17:52:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T16:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4753",
+  "title": "  notification service: slow responses in one region ",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-28T17:24:00Z",
+  "acknowledged_at": "2026-08-28T18:53:00Z",
+  "resolved_at": "2026-09-01T04:07:00Z",
+  "waiting_seconds": 15480,
+  "timeline": [
+   {
+    "at": "2026-08-28T17:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-28T18:53:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T04:07:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4754",
+  "title": "File Storage: slow responses in one region",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-28T19:41:00Z",
+  "acknowledged_at": "2026-08-28T20:19:00Z",
+  "resolved_at": "2026-08-29T02:32:00Z",
+  "waiting_seconds": 14460,
+  "timeline": [
+   {
+    "at": "2026-08-28T19:41:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-28T20:19:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-29T02:32:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4755",
+  "title": "Incident Webhooks: slow responses in one region",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-30T03:19:00Z",
+  "acknowledged_at": "2026-08-30T07:12:00Z",
+  "resolved_at": "2026-09-02T04:10:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-30T03:19:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T07:12:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-02T04:10:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4756",
+  "title": "Login Service: wrong icon in admin view",
+  "service": "login-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-30T06:52:00Z",
+  "acknowledged_at": "2026-08-30T08:55:00Z",
+  "resolved_at": "2026-09-03T16:50:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-30T06:52:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T08:55:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T16:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4757",
+  "title": "Notification Service: typo on error page",
+  "service": "notification-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-29T22:25:00Z",
+  "acknowledged_at": "2026-08-30T07:44:00Z",
+  "resolved_at": "2026-08-31T17:26:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-29T22:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T07:44:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T17:26:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4758",
+  "title": "  admin console fails for some customers ",
+  "service": "admin-console",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-08-29T20:13:00Z",
+  "acknowledged_at": "2026-08-29T20:24:00Z",
+  "resolved_at": "2026-08-30T03:30:00Z",
+  "waiting_seconds": 13680,
+  "timeline": [
+   {
+    "at": "2026-08-29T20:13:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-29T20:24:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T03:30:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4759",
+  "title": "Mobile Gateway: disk usage at 85%",
+  "service": "mobile-gateway",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-31T01:03:00Z",
+  "acknowledged_at": "2026-08-31T01:52:00Z",
+  "resolved_at": "2026-09-01T16:34:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-31T01:03:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T01:52:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T16:34:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4760",
+  "title": "Reporting Service: typo on error page",
+  "service": "reporting-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-30T18:06:00Z",
+  "acknowledged_at": "2026-08-30T21:21:00Z",
+  "resolved_at": "2026-09-04T19:28:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-30T18:06:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-30T21:21:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T19:28:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4761",
+  "title": "  search api returns 503 for all requests ",
+  "service": "search-api",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-08-31T01:02:00Z",
+  "acknowledged_at": "2026-08-31T01:16:00Z",
+  "resolved_at": "2026-08-31T05:23:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-31T01:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T01:16:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T05:23:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4762",
+  "title": "Login Service: slow responses in one region",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-01T09:21:00Z",
+  "acknowledged_at": "2026-09-01T11:17:00Z",
+  "resolved_at": "2026-09-04T02:28:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-01T09:21:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T11:17:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T02:28:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4763",
+  "title": "Login Service: slow responses in one region",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-01T09:23:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-01T09:23:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-01T09:23:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T09:23:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4762"
+   }
+  ]
+ },
+ {
+  "key": "INC-4764",
+  "title": "Checkout API: error rate above 5%",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-08-31T19:47:00Z",
+  "acknowledged_at": "2026-08-31T20:02:00Z",
+  "resolved_at": "2026-08-31T20:40:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-08-31T19:47:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T20:02:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-08-31T20:40:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4765",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-01T16:51:00Z",
+  "acknowledged_at": "2026-09-01T16:56:00Z",
+  "resolved_at": "2026-09-01T22:23:00Z",
+  "waiting_seconds": 7920,
+  "timeline": [
+   {
+    "at": "2026-09-01T16:51:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T16:56:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T22:23:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4766",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-01T16:53:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-01T16:53:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-01T16:53:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T16:53:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4765"
+   }
+  ]
+ },
+ {
+  "key": "INC-4767",
+  "title": "  login service returns 503 for all requests ",
+  "service": "login-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-01T21:36:00Z",
+  "acknowledged_at": "2026-09-01T21:42:00Z",
+  "resolved_at": "2026-09-01T21:55:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-01T21:36:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T21:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-01T21:55:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4768",
+  "title": "Notification Service fails for some customers",
+  "service": "notification-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-03T01:42:00Z",
+  "acknowledged_at": "2026-09-03T01:51:00Z",
+  "resolved_at": "2026-09-03T07:50:00Z",
+  "waiting_seconds": 13200,
+  "timeline": [
+   {
+    "at": "2026-09-03T01:42:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T01:51:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T07:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4769",
+  "title": "Checkout API: retries increasing",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-02T16:24:00Z",
+  "acknowledged_at": "2026-09-02T16:42:00Z",
+  "resolved_at": "2026-09-03T00:10:00Z",
+  "waiting_seconds": 12600,
+  "timeline": [
+   {
+    "at": "2026-09-02T16:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-02T16:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T00:10:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4770",
+  "title": "Reporting Service: slow responses in one region",
+  "service": "reporting-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-03T00:21:00Z",
+  "acknowledged_at": "2026-09-03T00:45:00Z",
+  "resolved_at": "2026-09-06T08:01:00Z",
+  "waiting_seconds": 7920,
+  "timeline": [
+   {
+    "at": "2026-09-03T00:21:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T00:45:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T08:01:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4771",
+  "title": "Status Page: error rate above 5%",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-02T19:27:00Z",
+  "acknowledged_at": "2026-09-02T19:40:00Z",
+  "resolved_at": "2026-09-02T23:33:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-02T19:27:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-02T19:40:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-02T23:33:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4772",
+  "title": "Checkout API is down",
+  "service": "checkout-api",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-04T13:53:00Z",
+  "acknowledged_at": "2026-09-04T14:04:00Z",
+  "resolved_at": "2026-09-04T17:42:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-04T13:53:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T14:04:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T17:42:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4773",
+  "title": "Checkout API: error rate above 5%",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-03T23:18:00Z",
+  "acknowledged_at": "2026-09-03T23:45:00Z",
+  "resolved_at": "2026-09-04T11:15:00Z",
+  "waiting_seconds": 8760,
+  "timeline": [
+   {
+    "at": "2026-09-03T23:18:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T23:45:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T11:15:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4774",
+  "title": "Mobile Gateway returns 503 for all requests",
+  "service": "mobile-gateway",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-03T19:25:00Z",
+  "acknowledged_at": "2026-09-03T19:37:00Z",
+  "resolved_at": "2026-09-03T22:29:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-03T19:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T19:37:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-03T22:29:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4775",
+  "title": "Login Service: slow responses in one region",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-04T21:09:00Z",
+  "acknowledged_at": "2026-09-04T21:45:00Z",
+  "resolved_at": "2026-09-05T06:34:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-04T21:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T21:45:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-05T06:34:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4776",
+  "title": "Admin Console: log noise from health checks",
+  "service": "admin-console",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-05T13:56:00Z",
+  "acknowledged_at": "2026-09-06T13:42:00Z",
+  "resolved_at": "2026-09-10T23:07:00Z",
+  "waiting_seconds": 1980,
+  "timeline": [
+   {
+    "at": "2026-09-05T13:56:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T13:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T23:07:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4777",
+  "title": "Audit Log: typo on error page",
+  "service": "audit-log",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-05T06:34:00Z",
+  "acknowledged_at": "2026-09-05T20:40:00Z",
+  "resolved_at": "2026-09-07T10:20:00Z",
+  "waiting_seconds": 10500,
+  "timeline": [
+   {
+    "at": "2026-09-05T06:34:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-05T20:40:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T10:20:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4778",
+  "title": "  checkout api: disk usage at 85% ",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-04T22:31:00Z",
+  "acknowledged_at": "2026-09-04T22:39:00Z",
+  "resolved_at": "2026-09-05T00:52:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-04T22:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T22:39:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-05T00:52:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4779",
+  "title": "  search api: slow responses in one region ",
+  "service": "search-api",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-04T17:51:00Z",
+  "acknowledged_at": "2026-09-04T18:11:00Z",
+  "resolved_at": "2026-09-05T01:50:00Z",
+  "waiting_seconds": 1560,
+  "timeline": [
+   {
+    "at": "2026-09-04T17:51:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-04T18:11:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-05T01:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4780",
+  "title": "  reporting service: slow responses in one region ",
+  "service": "reporting-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-05T21:03:00Z",
+  "acknowledged_at": "2026-09-05T22:02:00Z",
+  "resolved_at": "2026-09-09T09:24:00Z",
+  "waiting_seconds": 13200,
+  "timeline": [
+   {
+    "at": "2026-09-05T21:03:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-05T22:02:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T09:24:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4781",
+  "title": "Notification Service: typo on error page",
+  "service": "notification-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-06T11:11:00Z",
+  "acknowledged_at": "2026-09-07T16:09:00Z",
+  "resolved_at": "2026-09-14T07:55:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-06T11:11:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T16:09:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T07:55:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4782",
+  "title": "Login Service fails for some customers",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-06T07:24:00Z",
+  "acknowledged_at": "2026-09-06T07:42:00Z",
+  "resolved_at": "2026-09-06T11:12:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-06T07:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T07:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T11:12:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4783",
+  "title": "Checkout API: slow responses in one region",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-06T06:34:00Z",
+  "acknowledged_at": "2026-09-06T09:28:00Z",
+  "resolved_at": "2026-09-08T18:49:00Z",
+  "waiting_seconds": 10500,
+  "timeline": [
+   {
+    "at": "2026-09-06T06:34:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T09:28:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-08T18:49:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4784",
+  "title": "Audit Log is down",
+  "service": "audit-log",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-06T06:02:00Z",
+  "acknowledged_at": "2026-09-06T06:16:00Z",
+  "resolved_at": "2026-09-06T08:59:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-06T06:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T06:16:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T08:59:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4785",
+  "title": "  search api: disk usage at 85% ",
+  "service": "search-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-07T04:48:00Z",
+  "acknowledged_at": "2026-09-07T08:00:00Z",
+  "resolved_at": "2026-09-09T06:51:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-07T04:48:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T08:00:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T06:51:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4786",
+  "title": "Checkout API: wrong icon in admin view",
+  "service": "checkout-api",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-07T02:58:00Z",
+  "acknowledged_at": "2026-09-07T09:30:00Z",
+  "resolved_at": "2026-09-13T13:09:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-07T02:58:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T09:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T13:09:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4787",
+  "title": "Checkout API: p95 latency above 2s",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-06T22:35:00Z",
+  "acknowledged_at": "2026-09-06T22:43:00Z",
+  "resolved_at": "2026-09-07T07:57:00Z",
+  "waiting_seconds": 4380,
+  "timeline": [
+   {
+    "at": "2026-09-06T22:35:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-06T22:43:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T07:57:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4788",
+  "title": "Login Service: retries increasing",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-07T10:24:00Z",
+  "acknowledged_at": "2026-09-07T14:26:00Z",
+  "resolved_at": "2026-09-09T07:50:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-07T10:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T14:26:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T07:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4789",
+  "title": "Search API: disk usage at 85%",
+  "service": "search-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-08T04:18:00Z",
+  "acknowledged_at": "2026-09-08T08:41:00Z",
+  "resolved_at": "2026-09-09T01:21:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-08T04:18:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-08T08:41:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T01:21:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4790",
+  "title": "Admin Console fails for some customers",
+  "service": "admin-console",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-07T18:15:00Z",
+  "acknowledged_at": "2026-09-07T18:31:00Z",
+  "resolved_at": "2026-09-07T19:15:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-07T18:15:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T18:31:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-07T19:15:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4791",
+  "title": "  login service: retries increasing ",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-08T22:54:00Z",
+  "acknowledged_at": "2026-09-08T23:30:00Z",
+  "resolved_at": "2026-09-09T01:52:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-08T22:54:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-08T23:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T01:52:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4792",
+  "title": "Mobile Gateway: error rate above 5%",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-09T01:42:00Z",
+  "acknowledged_at": "2026-09-09T02:17:00Z",
+  "resolved_at": "2026-09-09T03:06:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-09T01:42:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T02:17:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T03:06:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4793",
+  "title": "Reporting Service: error rate above 5%",
+  "service": "reporting-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-08T19:18:00Z",
+  "acknowledged_at": "2026-09-08T19:42:00Z",
+  "resolved_at": "2026-09-09T04:36:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-08T19:18:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-08T19:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T04:36:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4794",
+  "title": "Admin Console: wrong icon in admin view",
+  "service": "admin-console",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-08T22:01:00Z",
+  "acknowledged_at": "2026-09-09T02:01:00Z",
+  "resolved_at": "2026-09-16T11:25:00Z",
+  "waiting_seconds": 8040,
+  "timeline": [
+   {
+    "at": "2026-09-08T22:01:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T02:01:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T11:25:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4795",
+  "title": "Checkout API fails for some customers",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-09T03:52:00Z",
+  "acknowledged_at": "2026-09-09T04:13:00Z",
+  "resolved_at": "2026-09-09T12:14:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-09T03:52:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T04:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T12:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4796",
+  "title": "Audit Log: slow responses in one region",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-09T18:56:00Z",
+  "acknowledged_at": "2026-09-09T19:34:00Z",
+  "resolved_at": "2026-09-10T02:44:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-09T18:56:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T19:34:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T02:44:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4797",
+  "title": "Audit Log: slow responses in one region",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-09T18:58:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-09T18:58:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-09T18:58:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T18:58:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4796"
+   }
+  ]
+ },
+ {
+  "key": "INC-4798",
+  "title": "Audit Log: slow responses in one region",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-09T19:00:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-09T19:00:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-09T19:00:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T19:00:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4796"
+   }
+  ]
+ },
+ {
+  "key": "INC-4799",
+  "title": "Audit Log: slow responses in one region",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-09T19:02:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-09T19:02:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-09T19:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-09T19:02:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4796"
+   }
+  ]
+ },
+ {
+  "key": "INC-4800",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-10T02:27:00Z",
+  "acknowledged_at": "2026-09-10T03:50:00Z",
+  "resolved_at": "2026-09-11T20:31:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-10T02:27:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T03:50:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-11T20:31:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4801",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-10T02:29:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-10T02:29:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-10T02:29:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T02:29:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4800"
+   }
+  ]
+ },
+ {
+  "key": "INC-4802",
+  "title": "File Storage: p95 latency above 2s",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-10T07:24:00Z",
+  "acknowledged_at": "2026-09-10T07:26:00Z",
+  "resolved_at": "2026-09-10T15:39:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-10T07:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T07:26:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T15:39:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4803",
+  "title": "File Storage: p95 latency above 2s",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-10T07:26:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-10T07:26:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-10T07:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T07:26:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4802"
+   }
+  ]
+ },
+ {
+  "key": "INC-4804",
+  "title": "File Storage: p95 latency above 2s",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-10T07:28:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-10T07:28:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-10T07:28:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T07:28:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4802"
+   }
+  ]
+ },
+ {
+  "key": "INC-4805",
+  "title": "File Storage: p95 latency above 2s",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-10T07:30:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-10T07:30:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-10T07:30:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-10T07:30:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4802"
+   }
+  ]
+ },
+ {
+  "key": "INC-4806",
+  "title": "  admin console: disk usage at 85% ",
+  "service": "admin-console",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-10T22:28:00Z",
+  "acknowledged_at": "2026-09-11T00:51:00Z",
+  "resolved_at": "2026-09-14T10:14:00Z",
+  "waiting_seconds": 3420,
+  "timeline": [
+   {
+    "at": "2026-09-10T22:28:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-11T00:51:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T10:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4807",
+  "title": "Search API fails for some customers",
+  "service": "search-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-11T06:23:00Z",
+  "acknowledged_at": "2026-09-11T06:25:00Z",
+  "resolved_at": "2026-09-11T11:43:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-11T06:23:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-11T06:25:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-11T11:43:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4808",
+  "title": "File Storage: wrong icon in admin view",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-11T09:18:00Z",
+  "acknowledged_at": "2026-09-11T17:15:00Z",
+  "resolved_at": "2026-09-17T16:45:00Z",
+  "waiting_seconds": 12360,
+  "timeline": [
+   {
+    "at": "2026-09-11T09:18:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-11T17:15:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-17T16:45:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4809",
+  "title": "Incident Webhooks: p95 latency above 2s",
+  "service": "incident-webhooks",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-12T04:26:00Z",
+  "acknowledged_at": "2026-09-12T04:42:00Z",
+  "resolved_at": "2026-09-12T09:38:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-12T04:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-12T04:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-12T09:38:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4810",
+  "title": "Checkout API is down",
+  "service": "checkout-api",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-12T10:02:00Z",
+  "acknowledged_at": "2026-09-12T10:21:00Z",
+  "resolved_at": "2026-09-12T12:42:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-12T10:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-12T10:21:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-12T12:42:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4811",
+  "title": "Login Service: p95 latency above 2s",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-12T09:04:00Z",
+  "acknowledged_at": "2026-09-12T09:39:00Z",
+  "resolved_at": "2026-09-12T21:43:00Z",
+  "waiting_seconds": 14280,
+  "timeline": [
+   {
+    "at": "2026-09-12T09:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-12T09:39:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-12T21:43:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4812",
+  "title": "Mobile Gateway: p95 latency above 2s",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-13T08:26:00Z",
+  "acknowledged_at": "2026-09-13T08:33:00Z",
+  "resolved_at": "2026-09-13T19:02:00Z",
+  "waiting_seconds": 10980,
+  "timeline": [
+   {
+    "at": "2026-09-13T08:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T08:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T19:02:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4813",
+  "title": "File Storage is down",
+  "service": "file-storage",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-13T09:30:00Z",
+  "acknowledged_at": "2026-09-13T09:45:00Z",
+  "resolved_at": "2026-09-13T17:06:00Z",
+  "waiting_seconds": 11520,
+  "timeline": [
+   {
+    "at": "2026-09-13T09:30:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T09:45:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T17:06:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4814",
+  "title": "Search API: p95 latency above 2s",
+  "service": "search-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-13T02:50:00Z",
+  "acknowledged_at": "2026-09-13T02:53:00Z",
+  "resolved_at": "2026-09-13T07:58:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-13T02:50:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T02:53:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-13T07:58:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4815",
+  "title": "Billing Service: log noise from health checks",
+  "service": "billing-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T11:51:00Z",
+  "acknowledged_at": "2026-09-15T12:03:00Z",
+  "resolved_at": "2026-09-23T19:41:00Z",
+  "waiting_seconds": 4140,
+  "timeline": [
+   {
+    "at": "2026-09-14T11:51:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-15T12:03:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T19:41:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4816",
+  "title": "Notification Service: retries increasing",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T04:01:00Z",
+  "acknowledged_at": "2026-09-14T06:33:00Z",
+  "resolved_at": "2026-09-16T01:33:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-14T04:01:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T06:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T01:33:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4817",
+  "title": "Notification Service fails for some customers",
+  "service": "notification-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T09:51:00Z",
+  "acknowledged_at": "2026-09-14T10:23:00Z",
+  "resolved_at": "2026-09-14T18:02:00Z",
+  "waiting_seconds": 3000,
+  "timeline": [
+   {
+    "at": "2026-09-14T09:51:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T10:23:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T18:02:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4818",
+  "title": "Mobile Gateway: slow responses in one region",
+  "service": "mobile-gateway",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-14T10:59:00Z",
+  "acknowledged_at": "2026-09-14T14:48:00Z",
+  "resolved_at": "2026-09-16T17:14:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-14T10:59:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T14:48:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T17:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4819",
+  "title": "  status page fails for some customers ",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-14T13:40:00Z",
+  "acknowledged_at": "2026-09-14T14:03:00Z",
+  "resolved_at": "2026-09-14T17:16:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-14T13:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T14:03:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T17:16:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4820",
+  "title": "Notification Service: slow responses in one region",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T15:50:00Z",
+  "acknowledged_at": "2026-09-14T20:54:00Z",
+  "resolved_at": "2026-09-17T18:45:00Z",
+  "waiting_seconds": 11640,
+  "timeline": [
+   {
+    "at": "2026-09-14T15:50:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T20:54:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-17T18:45:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4821",
+  "title": "Search API: typo on error page",
+  "service": "search-api",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-15T14:31:00Z",
+  "acknowledged_at": "2026-09-15T19:17:00Z",
+  "resolved_at": "2026-09-16T03:54:00Z",
+  "waiting_seconds": 8700,
+  "timeline": [
+   {
+    "at": "2026-09-15T14:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-15T19:17:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T03:54:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4822",
+  "title": "Notification Service: error rate above 5%",
+  "service": "notification-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T19:52:00Z",
+  "acknowledged_at": "2026-09-14T20:16:00Z",
+  "resolved_at": "2026-09-15T06:56:00Z",
+  "waiting_seconds": 9540,
+  "timeline": [
+   {
+    "at": "2026-09-14T19:52:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T20:16:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-15T06:56:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4823",
+  "title": "Notification Service: error rate above 5%",
+  "service": "notification-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T19:54:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-14T19:54:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-14T19:54:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T19:54:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4822"
+   }
+  ]
+ },
+ {
+  "key": "INC-4824",
+  "title": "Notification Service: error rate above 5%",
+  "service": "notification-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-14T19:56:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-14T19:56:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-14T19:56:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-14T19:56:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4822"
+   }
+  ]
+ },
+ {
+  "key": "INC-4825",
+  "title": "  audit log: wrong icon in admin view ",
+  "service": "audit-log",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-15T12:04:00Z",
+  "acknowledged_at": "2026-09-16T03:47:00Z",
+  "resolved_at": "2026-09-25T05:05:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-15T12:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T03:47:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T05:05:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4826",
+  "title": "Reporting Service is down",
+  "service": "reporting-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-16T11:37:00Z",
+  "acknowledged_at": "2026-09-16T11:52:00Z",
+  "resolved_at": "2026-09-16T13:48:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-16T11:37:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T11:52:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T13:48:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4827",
+  "title": "Search API: database connections exhausted",
+  "service": "search-api",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-15T15:04:00Z",
+  "acknowledged_at": "2026-09-15T15:09:00Z",
+  "resolved_at": "2026-09-15T18:24:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-15T15:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-15T15:09:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-15T18:24:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4828",
+  "title": "Checkout API: disk usage at 85%",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-15T21:54:00Z",
+  "acknowledged_at": "2026-09-15T22:02:00Z",
+  "resolved_at": "2026-09-16T00:42:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-15T21:54:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-15T22:02:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T00:42:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4829",
+  "title": "Admin Console: retries increasing",
+  "service": "admin-console",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-15T21:58:00Z",
+  "acknowledged_at": "2026-09-16T00:34:00Z",
+  "resolved_at": "2026-09-18T10:16:00Z",
+  "waiting_seconds": 9720,
+  "timeline": [
+   {
+    "at": "2026-09-15T21:58:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T00:34:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T10:16:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4830",
+  "title": "File Storage: disk usage at 85%",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-16T12:23:00Z",
+  "acknowledged_at": "2026-09-16T17:13:00Z",
+  "resolved_at": "2026-09-19T16:41:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-16T12:23:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T17:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T16:41:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4831",
+  "title": "Search API: disk usage at 85%",
+  "service": "search-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-17T03:25:00Z",
+  "acknowledged_at": "2026-09-17T05:30:00Z",
+  "resolved_at": "2026-09-20T13:25:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-17T03:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-17T05:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T13:25:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4832",
+  "title": "File Storage fails for some customers",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-16T15:12:00Z",
+  "acknowledged_at": "2026-09-16T15:24:00Z",
+  "resolved_at": "2026-09-16T19:32:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-16T15:12:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T15:24:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T19:32:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4833",
+  "title": "File Storage fails for some customers",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-16T15:14:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-16T15:14:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-16T15:14:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T15:14:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4832"
+   }
+  ]
+ },
+ {
+  "key": "INC-4834",
+  "title": "File Storage fails for some customers",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-16T15:16:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-16T15:16:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-16T15:16:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T15:16:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4832"
+   }
+  ]
+ },
+ {
+  "key": "INC-4835",
+  "title": "File Storage fails for some customers",
+  "service": "file-storage",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-16T15:18:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-16T15:18:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-16T15:18:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-16T15:18:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4832"
+   }
+  ]
+ },
+ {
+  "key": "INC-4836",
+  "title": "Status Page: slow responses in one region",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-17T01:24:00Z",
+  "acknowledged_at": "2026-09-17T05:43:00Z",
+  "resolved_at": "2026-09-19T12:53:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-17T01:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-17T05:43:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T12:53:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4837",
+  "title": "Notification Service: wrong icon in admin view",
+  "service": "notification-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-17T12:31:00Z",
+  "acknowledged_at": "2026-09-18T07:18:00Z",
+  "resolved_at": "2026-09-26T09:53:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-17T12:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T07:18:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-26T09:53:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4838",
+  "title": "Incident Webhooks: disk usage at 85%",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-17T17:40:00Z",
+  "acknowledged_at": "2026-09-17T22:28:00Z",
+  "resolved_at": "2026-09-18T10:46:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-17T17:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-17T22:28:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T10:46:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4839",
+  "title": "File Storage: disk usage at 85%",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T07:34:00Z",
+  "acknowledged_at": "2026-09-18T11:51:00Z",
+  "resolved_at": "2026-09-20T01:27:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T07:34:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T11:51:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T01:27:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4840",
+  "title": "Audit Log fails for some customers",
+  "service": "audit-log",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T06:14:00Z",
+  "acknowledged_at": "2026-09-18T06:52:00Z",
+  "resolved_at": "2026-09-18T09:22:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T06:14:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T06:52:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T09:22:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4841",
+  "title": "Mobile Gateway: p95 latency above 2s",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-19T01:57:00Z",
+  "acknowledged_at": "2026-09-19T02:31:00Z",
+  "resolved_at": "2026-09-19T05:10:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-19T01:57:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T02:31:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T05:10:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4842",
+  "title": "Checkout API: disk usage at 85%",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T23:07:00Z",
+  "acknowledged_at": "2026-09-19T03:35:00Z",
+  "resolved_at": "2026-09-22T17:38:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T23:07:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T03:35:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-22T17:38:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4843",
+  "title": "Checkout API: disk usage at 85%",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T23:09:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-18T23:09:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T23:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T23:09:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4842"
+   }
+  ]
+ },
+ {
+  "key": "INC-4844",
+  "title": "Checkout API: disk usage at 85%",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T23:11:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-18T23:11:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T23:11:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T23:11:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4842"
+   }
+  ]
+ },
+ {
+  "key": "INC-4845",
+  "title": "Checkout API: disk usage at 85%",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T23:13:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-18T23:13:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T23:13:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T23:13:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4842"
+   }
+  ]
+ },
+ {
+  "key": "INC-4846",
+  "title": "Checkout API: slow responses in one region",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-18T19:17:00Z",
+  "acknowledged_at": "2026-09-18T19:42:00Z",
+  "resolved_at": "2026-09-19T04:13:00Z",
+  "waiting_seconds": 17760,
+  "timeline": [
+   {
+    "at": "2026-09-18T19:17:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T19:42:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T04:13:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4847",
+  "title": "Mobile Gateway: error rate above 5%",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T22:35:00Z",
+  "acknowledged_at": "2026-09-18T22:50:00Z",
+  "resolved_at": "2026-09-19T03:21:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T22:35:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T22:50:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T03:21:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4848",
+  "title": "Checkout API is down",
+  "service": "checkout-api",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-18T17:05:00Z",
+  "acknowledged_at": "2026-09-18T17:13:00Z",
+  "resolved_at": "2026-09-18T20:14:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-18T17:05:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T17:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-18T20:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4849",
+  "title": "Reporting Service: error rate above 5%",
+  "service": "reporting-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-19T15:49:00Z",
+  "acknowledged_at": "2026-09-19T16:13:00Z",
+  "resolved_at": "2026-09-19T19:43:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-19T15:49:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T16:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-19T19:43:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4850",
+  "title": "Incident Webhooks: typo on error page",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-20T00:25:00Z",
+  "acknowledged_at": "2026-09-20T03:18:00Z",
+  "resolved_at": "2026-09-30T13:14:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-20T00:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T03:18:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T13:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4851",
+  "title": "  admin console is down ",
+  "service": "admin-console",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-20T04:19:00Z",
+  "acknowledged_at": "2026-09-20T04:31:00Z",
+  "resolved_at": "2026-09-20T04:55:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-20T04:19:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T04:31:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T04:55:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4852",
+  "title": "File Storage: log noise from health checks",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-20T11:41:00Z",
+  "acknowledged_at": "2026-09-21T12:24:00Z",
+  "resolved_at": "2026-09-28T02:08:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-20T11:41:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T12:24:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T02:08:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4853",
+  "title": "Billing Service: log noise from health checks",
+  "service": "billing-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-20T08:17:00Z",
+  "acknowledged_at": "2026-09-20T11:56:00Z",
+  "resolved_at": "2026-10-01T13:16:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-20T08:17:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T11:56:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T13:16:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4854",
+  "title": "Login Service fails for some customers",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-21T14:52:00Z",
+  "acknowledged_at": "2026-09-21T14:54:00Z",
+  "resolved_at": "2026-09-21T18:10:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-21T14:52:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T14:54:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T18:10:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4855",
+  "title": "Incident Webhooks: slow responses in one region",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-20T23:32:00Z",
+  "acknowledged_at": "2026-09-21T00:46:00Z",
+  "resolved_at": "2026-09-22T23:25:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-20T23:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T00:46:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-22T23:25:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4856",
+  "title": "Login Service: slow responses in one region",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-20T15:12:00Z",
+  "acknowledged_at": "2026-09-20T16:34:00Z",
+  "resolved_at": "2026-09-22T05:56:00Z",
+  "waiting_seconds": 13680,
+  "timeline": [
+   {
+    "at": "2026-09-20T15:12:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-20T16:34:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-22T05:56:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4857",
+  "title": "Billing Service fails for some customers",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-21T17:52:00Z",
+  "acknowledged_at": "2026-09-21T18:06:00Z",
+  "resolved_at": "2026-09-21T22:36:00Z",
+  "waiting_seconds": 3060,
+  "timeline": [
+   {
+    "at": "2026-09-21T17:52:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T18:06:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T22:36:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4858",
+  "title": "Admin Console: wrong icon in admin view",
+  "service": "admin-console",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-21T15:25:00Z",
+  "acknowledged_at": "2026-09-21T16:59:00Z",
+  "resolved_at": "2026-10-02T07:45:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-21T15:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-21T16:59:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-02T07:45:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4859",
+  "title": "Incident Webhooks: retries increasing",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-22T14:15:00Z",
+  "acknowledged_at": "2026-09-22T15:41:00Z",
+  "resolved_at": "2026-09-24T18:51:00Z",
+  "waiting_seconds": 3840,
+  "timeline": [
+   {
+    "at": "2026-09-22T14:15:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-22T15:41:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-24T18:51:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4860",
+  "title": "  billing service: slow responses in one region ",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-23T00:12:00Z",
+  "acknowledged_at": "2026-09-23T02:19:00Z",
+  "resolved_at": "2026-09-25T12:35:00Z",
+  "waiting_seconds": 11880,
+  "timeline": [
+   {
+    "at": "2026-09-23T00:12:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T02:19:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T12:35:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4861",
+  "title": "Status Page: p95 latency above 2s",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-23T05:21:00Z",
+  "acknowledged_at": "2026-09-23T05:37:00Z",
+  "resolved_at": "2026-09-23T08:48:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-23T05:21:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T05:37:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T08:48:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4862",
+  "title": "Checkout API: slow responses in one region",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-22T23:22:00Z",
+  "acknowledged_at": "2026-09-23T00:17:00Z",
+  "resolved_at": "2026-09-24T07:58:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-22T23:22:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T00:17:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-24T07:58:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4863",
+  "title": "Billing Service: retries increasing",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-23T12:13:00Z",
+  "acknowledged_at": "2026-09-23T16:33:00Z",
+  "resolved_at": "2026-09-24T17:22:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-23T12:13:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T16:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-24T17:22:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4864",
+  "title": "Notification Service: retries increasing",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-22T19:31:00Z",
+  "acknowledged_at": "2026-09-22T20:44:00Z",
+  "resolved_at": "2026-09-23T23:17:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-22T19:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-22T20:44:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T23:17:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4865",
+  "title": "Audit Log: slow responses in one region",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-24T01:32:00Z",
+  "acknowledged_at": "2026-09-24T04:54:00Z",
+  "resolved_at": "2026-09-25T15:17:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-24T01:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-24T04:54:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T15:17:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4866",
+  "title": "Incident Webhooks: wrong icon in admin view",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-23T20:19:00Z",
+  "acknowledged_at": "2026-09-24T11:13:00Z",
+  "resolved_at": "2026-09-29T02:52:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-23T20:19:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-24T11:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T02:52:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4867",
+  "title": "  admin console: retries increasing ",
+  "service": "admin-console",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-23T19:53:00Z",
+  "acknowledged_at": "2026-09-23T21:23:00Z",
+  "resolved_at": "2026-09-25T08:29:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-23T19:53:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-23T21:23:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T08:29:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4868",
+  "title": "  file storage: retries increasing ",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-25T13:37:00Z",
+  "acknowledged_at": "2026-09-25T17:40:00Z",
+  "resolved_at": "2026-09-28T06:33:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-25T13:37:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T17:40:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T06:33:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4869",
+  "title": "Checkout API: log noise from health checks",
+  "service": "checkout-api",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-25T05:48:00Z",
+  "acknowledged_at": "2026-09-25T23:01:00Z",
+  "resolved_at": "2026-09-28T08:32:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-25T05:48:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T23:01:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T08:32:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4870",
+  "title": "  checkout api: p95 latency above 2s ",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-25T00:07:00Z",
+  "acknowledged_at": "2026-09-25T00:19:00Z",
+  "resolved_at": "2026-09-25T07:56:00Z",
+  "waiting_seconds": 17940,
+  "timeline": [
+   {
+    "at": "2026-09-25T00:07:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T00:19:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T07:56:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4871",
+  "title": "Login Service: database connections exhausted",
+  "service": "login-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-25T22:17:00Z",
+  "acknowledged_at": "2026-09-25T22:30:00Z",
+  "resolved_at": "2026-09-26T01:11:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-25T22:17:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T22:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-26T01:11:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4872",
+  "title": "  file storage: slow responses in one region ",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-25T15:09:00Z",
+  "acknowledged_at": "2026-09-25T15:39:00Z",
+  "resolved_at": "2026-09-26T00:32:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-25T15:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-25T15:39:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-26T00:32:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4873",
+  "title": "Audit Log: database connections exhausted",
+  "service": "audit-log",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-26T07:34:00Z",
+  "acknowledged_at": "2026-09-26T07:36:00Z",
+  "resolved_at": "2026-09-26T07:50:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-26T07:34:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-26T07:36:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-26T07:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4874",
+  "title": "Reporting Service: typo on error page",
+  "service": "reporting-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-27T03:32:00Z",
+  "acknowledged_at": "2026-09-28T01:36:00Z",
+  "resolved_at": "2026-10-04T19:53:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T03:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T01:36:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T19:53:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4875",
+  "title": "Reporting Service: disk usage at 85%",
+  "service": "reporting-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-26T17:10:00Z",
+  "acknowledged_at": "2026-09-26T20:22:00Z",
+  "resolved_at": "2026-09-28T13:19:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-26T17:10:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-26T20:22:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T13:19:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4876",
+  "title": "Notification Service: typo on error page",
+  "service": "notification-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-27T06:48:00Z",
+  "acknowledged_at": "2026-09-27T23:05:00Z",
+  "resolved_at": "2026-10-09T03:41:00Z",
+  "waiting_seconds": 14340,
+  "timeline": [
+   {
+    "at": "2026-09-27T06:48:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-27T23:05:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T03:41:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4877",
+  "title": "Mobile Gateway: typo on error page",
+  "service": "mobile-gateway",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-27T17:55:00Z",
+  "acknowledged_at": "2026-09-28T21:48:00Z",
+  "resolved_at": "2026-09-29T21:24:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T17:55:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T21:48:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T21:24:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4878",
+  "title": "Incident Webhooks: typo on error page",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-27T18:09:00Z",
+  "acknowledged_at": "2026-09-28T16:13:00Z",
+  "resolved_at": "2026-09-29T11:25:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T18:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T16:13:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T11:25:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4879",
+  "title": "Incident Webhooks: typo on error page",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-27T18:11:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-27T18:11:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T18:11:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-27T18:11:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4878"
+   }
+  ]
+ },
+ {
+  "key": "INC-4880",
+  "title": "Incident Webhooks: typo on error page",
+  "service": "incident-webhooks",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-27T18:13:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-27T18:13:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T18:13:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-27T18:13:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4878"
+   }
+  ]
+ },
+ {
+  "key": "INC-4881",
+  "title": "Checkout API: slow responses in one region",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-28T12:27:00Z",
+  "acknowledged_at": "2026-09-28T12:55:00Z",
+  "resolved_at": "2026-09-28T17:01:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-28T12:27:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T12:55:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T17:01:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4882",
+  "title": "Search API: p95 latency above 2s",
+  "service": "search-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-27T15:32:00Z",
+  "acknowledged_at": "2026-09-27T15:40:00Z",
+  "resolved_at": "2026-09-27T21:53:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T15:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-27T15:40:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-27T21:53:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4883",
+  "title": "  reporting service: slow responses in one region ",
+  "service": "reporting-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-27T16:53:00Z",
+  "acknowledged_at": "2026-09-27T18:35:00Z",
+  "resolved_at": "2026-09-28T11:06:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-27T16:53:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-27T18:35:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T11:06:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4884",
+  "title": "Mobile Gateway fails for some customers",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-29T14:24:00Z",
+  "acknowledged_at": "2026-09-29T14:38:00Z",
+  "resolved_at": "2026-09-29T18:05:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-29T14:24:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T14:38:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T18:05:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4885",
+  "title": "Mobile Gateway fails for some customers",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-29T14:26:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-29T14:26:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-29T14:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T14:26:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4884"
+   }
+  ]
+ },
+ {
+  "key": "INC-4886",
+  "title": "Mobile Gateway fails for some customers",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-29T14:28:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-29T14:28:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-29T14:28:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T14:28:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4884"
+   }
+  ]
+ },
+ {
+  "key": "INC-4887",
+  "title": "Mobile Gateway fails for some customers",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-29T14:30:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-09-29T14:30:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-29T14:30:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T14:30:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4884"
+   }
+  ]
+ },
+ {
+  "key": "INC-4888",
+  "title": "Checkout API fails for some customers",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-29T00:20:00Z",
+  "acknowledged_at": "2026-09-29T00:29:00Z",
+  "resolved_at": "2026-09-29T04:46:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-29T00:20:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T00:29:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-29T04:46:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4889",
+  "title": "Audit Log: log noise from health checks",
+  "service": "audit-log",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-09-29T10:17:00Z",
+  "acknowledged_at": "2026-09-30T13:57:00Z",
+  "resolved_at": "2026-10-06T04:13:00Z",
+  "waiting_seconds": 14580,
+  "timeline": [
+   {
+    "at": "2026-09-29T10:17:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T13:57:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T04:13:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4890",
+  "title": "  notification service: disk usage at 85% ",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-28T17:27:00Z",
+  "acknowledged_at": "2026-09-28T20:30:00Z",
+  "resolved_at": "2026-10-02T07:55:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-28T17:27:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-28T20:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-02T07:55:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4891",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-09-30T05:34:00Z",
+  "acknowledged_at": "2026-09-30T05:41:00Z",
+  "resolved_at": "2026-10-03T14:03:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-30T05:34:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T05:41:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-03T14:03:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4892",
+  "title": "Mobile Gateway: retries increasing",
+  "service": "mobile-gateway",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-30T10:47:00Z",
+  "acknowledged_at": "2026-09-30T15:58:00Z",
+  "resolved_at": "2026-10-01T17:19:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-30T10:47:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T15:58:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T17:19:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4893",
+  "title": "  admin console: p95 latency above 2s ",
+  "service": "admin-console",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-30T05:31:00Z",
+  "acknowledged_at": "2026-09-30T06:02:00Z",
+  "resolved_at": "2026-09-30T13:38:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-30T05:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T06:02:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T13:38:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4894",
+  "title": "Incident Webhooks is down",
+  "service": "incident-webhooks",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-01T07:14:00Z",
+  "acknowledged_at": "2026-10-01T07:30:00Z",
+  "resolved_at": "2026-10-01T12:08:00Z",
+  "waiting_seconds": 12540,
+  "timeline": [
+   {
+    "at": "2026-10-01T07:14:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T07:30:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T12:08:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4895",
+  "title": "  audit log: disk usage at 85% ",
+  "service": "audit-log",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-30T20:55:00Z",
+  "acknowledged_at": "2026-10-01T01:08:00Z",
+  "resolved_at": "2026-10-01T20:44:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-09-30T20:55:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T01:08:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T20:44:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4896",
+  "title": "  billing service: disk usage at 85% ",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-09-30T20:18:00Z",
+  "acknowledged_at": "2026-09-30T20:53:00Z",
+  "resolved_at": "2026-10-01T08:15:00Z",
+  "waiting_seconds": 8940,
+  "timeline": [
+   {
+    "at": "2026-09-30T20:18:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-09-30T20:53:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T08:15:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4897",
+  "title": "Incident Webhooks: slow responses in one region",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-01T08:23:00Z",
+  "acknowledged_at": "2026-10-01T11:56:00Z",
+  "resolved_at": "2026-10-05T00:28:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-01T08:23:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T11:56:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T00:28:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4898",
+  "title": "Search API: log noise from health checks",
+  "service": "search-api",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-02T11:56:00Z",
+  "acknowledged_at": "2026-10-03T16:31:00Z",
+  "resolved_at": "2026-10-08T01:54:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-02T11:56:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-03T16:31:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T01:54:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4899",
+  "title": "Billing Service: retries increasing",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-02T01:08:00Z",
+  "acknowledged_at": "2026-10-02T03:59:00Z",
+  "resolved_at": "2026-10-05T02:52:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-02T01:08:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-02T03:59:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T02:52:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4900",
+  "title": "Billing Service: disk usage at 85%",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-01T16:35:00Z",
+  "acknowledged_at": "2026-10-01T16:48:00Z",
+  "resolved_at": "2026-10-01T22:41:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-01T16:35:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T16:48:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-01T22:41:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4901",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-03T12:35:00Z",
+  "acknowledged_at": "2026-10-03T17:01:00Z",
+  "resolved_at": "2026-10-05T13:02:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-03T12:35:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-03T17:01:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T13:02:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4902",
+  "title": "Notification Service: retries increasing",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-03T04:40:00Z",
+  "acknowledged_at": "2026-10-03T06:09:00Z",
+  "resolved_at": "2026-10-06T06:05:00Z",
+  "waiting_seconds": 11640,
+  "timeline": [
+   {
+    "at": "2026-10-03T04:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-03T06:09:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T06:05:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4903",
+  "title": "Search API: p95 latency above 2s",
+  "service": "search-api",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-10-02T22:11:00Z",
+  "acknowledged_at": "2026-10-02T22:19:00Z",
+  "resolved_at": "2026-10-02T23:21:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-02T22:11:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-02T22:19:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-02T23:21:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4904",
+  "title": "Billing Service: error rate above 5%",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-03T15:04:00Z",
+  "acknowledged_at": "2026-10-03T15:11:00Z",
+  "resolved_at": "2026-10-03T19:09:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-03T15:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-03T15:11:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-03T19:09:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4905",
+  "title": "Status Page: error rate above 5%",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-04T00:15:00Z",
+  "acknowledged_at": "2026-10-04T00:23:00Z",
+  "resolved_at": "2026-10-04T03:50:00Z",
+  "waiting_seconds": 6000,
+  "timeline": [
+   {
+    "at": "2026-10-04T00:15:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T00:23:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T03:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4906",
+  "title": "Billing Service: database connections exhausted",
+  "service": "billing-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-04T00:14:00Z",
+  "acknowledged_at": "2026-10-04T00:19:00Z",
+  "resolved_at": "2026-10-04T03:36:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-04T00:14:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T00:19:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T03:36:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4907",
+  "title": "Login Service fails for some customers",
+  "service": "login-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-04T13:21:00Z",
+  "acknowledged_at": "2026-10-04T13:26:00Z",
+  "resolved_at": "2026-10-04T21:15:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-04T13:21:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T13:26:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-04T21:15:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4908",
+  "title": "File Storage: retries increasing",
+  "service": "file-storage",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-05T06:42:00Z",
+  "acknowledged_at": "2026-10-05T09:12:00Z",
+  "resolved_at": "2026-10-06T09:23:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-05T06:42:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T09:12:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T09:23:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4909",
+  "title": "Status Page: wrong icon in admin view",
+  "service": "status-page",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-05T04:58:00Z",
+  "acknowledged_at": "2026-10-05T05:22:00Z",
+  "resolved_at": "2026-10-05T15:03:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-05T04:58:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T05:22:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T15:03:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4910",
+  "title": "Search API: database connections exhausted",
+  "service": "search-api",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-05T01:32:00Z",
+  "acknowledged_at": "2026-10-05T01:48:00Z",
+  "resolved_at": "2026-10-05T04:20:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-05T01:32:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T01:48:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T04:20:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4911",
+  "title": "Checkout API: retries increasing",
+  "service": "checkout-api",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-06T01:04:00Z",
+  "acknowledged_at": "2026-10-06T06:12:00Z",
+  "resolved_at": "2026-10-08T08:28:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-06T01:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T06:12:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T08:28:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4912",
+  "title": "Admin Console: retries increasing",
+  "service": "admin-console",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-06T14:46:00Z",
+  "acknowledged_at": "2026-10-06T18:45:00Z",
+  "resolved_at": "2026-10-10T00:12:00Z",
+  "waiting_seconds": 9720,
+  "timeline": [
+   {
+    "at": "2026-10-06T14:46:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T18:45:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T00:12:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4913",
+  "title": "Status Page: retries increasing",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-05T20:09:00Z",
+  "acknowledged_at": "2026-10-05T20:18:00Z",
+  "resolved_at": "2026-10-06T03:56:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-05T20:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T20:18:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T03:56:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4914",
+  "title": "Billing Service: slow responses in one region",
+  "service": "billing-service",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-05T17:25:00Z",
+  "acknowledged_at": "2026-10-05T17:35:00Z",
+  "resolved_at": "2026-10-05T20:06:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-05T17:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T17:35:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-05T20:06:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4915",
+  "title": "Incident Webhooks: disk usage at 85%",
+  "service": "incident-webhooks",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-06T10:43:00Z",
+  "acknowledged_at": "2026-10-06T11:18:00Z",
+  "resolved_at": "2026-10-07T18:35:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-06T10:43:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T11:18:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-07T18:35:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4916",
+  "title": "Login Service: typo on error page",
+  "service": "login-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-07T11:28:00Z",
+  "acknowledged_at": "2026-10-08T10:39:00Z",
+  "resolved_at": "2026-10-13T22:51:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-07T11:28:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T10:39:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T22:51:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4917",
+  "title": "Reporting Service: error rate above 5%",
+  "service": "reporting-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-07T10:25:00Z",
+  "acknowledged_at": "2026-10-07T10:37:00Z",
+  "resolved_at": "2026-10-07T17:14:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-07T10:25:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-07T10:37:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-07T17:14:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4918",
+  "title": "Mobile Gateway: p95 latency above 2s",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-10-06T18:40:00Z",
+  "acknowledged_at": "2026-10-06T18:52:00Z",
+  "resolved_at": "2026-10-07T01:15:00Z",
+  "waiting_seconds": 14400,
+  "timeline": [
+   {
+    "at": "2026-10-06T18:40:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-06T18:52:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-07T01:15:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4919",
+  "title": "  notification service is down ",
+  "service": "notification-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-07T21:38:00Z",
+  "acknowledged_at": "2026-10-07T21:46:00Z",
+  "resolved_at": "2026-10-08T01:23:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-07T21:38:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-07T21:46:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T01:23:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4920",
+  "title": "  notification service: disk usage at 85% ",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-10-07T20:08:00Z",
+  "acknowledged_at": "2026-10-08T00:23:00Z",
+  "resolved_at": "2026-10-11T05:39:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-07T20:08:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T00:23:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T05:39:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4921",
+  "title": "Mobile Gateway: p95 latency above 2s",
+  "service": "mobile-gateway",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-07T20:08:00Z",
+  "acknowledged_at": "2026-10-07T20:27:00Z",
+  "resolved_at": "2026-10-08T04:50:00Z",
+  "waiting_seconds": 14160,
+  "timeline": [
+   {
+    "at": "2026-10-07T20:08:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-07T20:27:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T04:50:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4922",
+  "title": "Mobile Gateway: retries increasing",
+  "service": "mobile-gateway",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-08T08:26:00Z",
+  "acknowledged_at": "2026-10-08T10:11:00Z",
+  "resolved_at": "2026-10-10T08:06:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-08T08:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-08T10:11:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T08:06:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4923",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T12:00:00Z",
+  "acknowledged_at": "2026-10-09T12:26:00Z",
+  "resolved_at": "2026-10-09T20:08:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T12:00:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T12:26:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T20:08:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4924",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T12:02:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-09T12:02:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T12:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T12:02:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4923"
+   }
+  ]
+ },
+ {
+  "key": "INC-4925",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T12:04:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-09T12:04:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T12:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T12:04:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4923"
+   }
+  ]
+ },
+ {
+  "key": "INC-4926",
+  "title": "Billing Service: p95 latency above 2s",
+  "service": "billing-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T12:06:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-09T12:06:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T12:06:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T12:06:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4923"
+   }
+  ]
+ },
+ {
+  "key": "INC-4927",
+  "title": "Mobile Gateway: log noise from health checks",
+  "service": "mobile-gateway",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-08T23:31:00Z",
+  "acknowledged_at": "2026-10-09T17:29:00Z",
+  "resolved_at": "2026-10-10T09:08:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-08T23:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T17:29:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T09:08:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4928",
+  "title": "Checkout API: typo on error page",
+  "service": "checkout-api",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "acknowledged",
+  "source": "email",
+  "opened_at": "2026-10-09T08:26:00Z",
+  "acknowledged_at": "2026-10-10T05:39:00Z",
+  "resolved_at": null,
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T08:26:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T05:39:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "key": "INC-4929",
+  "title": "Reporting Service: p95 latency above 2s",
+  "service": "reporting-service",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T13:05:00Z",
+  "acknowledged_at": "2026-10-09T13:43:00Z",
+  "resolved_at": "2026-10-09T19:35:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T13:05:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T13:43:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T19:35:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4930",
+  "title": "Status Page: wrong icon in admin view",
+  "service": "status-page",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T15:44:00Z",
+  "acknowledged_at": "2026-10-09T16:53:00Z",
+  "resolved_at": "2026-10-10T12:36:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T15:44:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T16:53:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T12:36:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4931",
+  "title": "  status page: disk usage at 85% ",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-10-10T00:08:00Z",
+  "acknowledged_at": "2026-10-10T01:44:00Z",
+  "resolved_at": "2026-10-10T07:22:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-10T00:08:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T01:44:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T07:22:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4932",
+  "title": "Search API: error rate above 5%",
+  "service": "search-api",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-10T13:27:00Z",
+  "acknowledged_at": "2026-10-10T13:49:00Z",
+  "resolved_at": "2026-10-10T19:03:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-10T13:27:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T13:49:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T19:03:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4933",
+  "title": "Notification Service: typo on error page",
+  "service": "notification-service",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "acknowledged",
+  "source": "monitoring",
+  "opened_at": "2026-10-10T09:58:00Z",
+  "acknowledged_at": "2026-10-10T15:43:00Z",
+  "resolved_at": null,
+  "waiting_seconds": 11400,
+  "timeline": [
+   {
+    "at": "2026-10-10T09:58:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-10T15:43:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "key": "INC-4934",
+  "title": "File Storage: wrong icon in admin view",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T21:05:00Z",
+  "acknowledged_at": "2026-10-09T21:10:00Z",
+  "resolved_at": "2026-10-11T07:34:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T21:05:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T21:10:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T07:34:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4935",
+  "title": "File Storage: wrong icon in admin view",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T21:07:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-09T21:07:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T21:07:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T21:07:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4934"
+   }
+  ]
+ },
+ {
+  "key": "INC-4936",
+  "title": "File Storage: wrong icon in admin view",
+  "service": "file-storage",
+  "severity": "cosmetic",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-09T21:09:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-09T21:09:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-09T21:09:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-09T21:09:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4934"
+   }
+  ]
+ },
+ {
+  "key": "INC-4937",
+  "title": "  status page fails for some customers ",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-10-11T14:10:00Z",
+  "acknowledged_at": "2026-10-11T14:44:00Z",
+  "resolved_at": "2026-10-11T20:12:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-11T14:10:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T14:44:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T20:12:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4938",
+  "title": "  file storage returns 503 for all requests ",
+  "service": "file-storage",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-11T10:21:00Z",
+  "acknowledged_at": "2026-10-11T10:39:00Z",
+  "resolved_at": "2026-10-11T14:25:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-11T10:21:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T10:39:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T14:25:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4939",
+  "title": "Login Service returns 503 for all requests",
+  "service": "login-service",
+  "severity": "critical",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-11T00:04:00Z",
+  "acknowledged_at": "2026-10-11T00:11:00Z",
+  "resolved_at": "2026-10-11T00:53:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-11T00:04:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T00:11:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T00:53:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4940",
+  "title": "Status Page: disk usage at 85%",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-12T10:57:00Z",
+  "acknowledged_at": "2026-10-12T15:31:00Z",
+  "resolved_at": "2026-10-15T00:02:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-12T10:57:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-12T15:31:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-15T00:02:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4941",
+  "title": "Notification Service: retries increasing",
+  "service": "notification-service",
+  "severity": "minor",
+  "priority": "P3",
+  "status": "resolved",
+  "source": "manual",
+  "opened_at": "2026-10-11T15:57:00Z",
+  "acknowledged_at": "2026-10-11T16:58:00Z",
+  "resolved_at": "2026-10-12T23:59:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-11T15:57:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-11T16:58:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-12T23:59:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4942",
+  "title": "Status Page: error rate above 5%",
+  "service": "status-page",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-13T12:06:00Z",
+  "acknowledged_at": "2026-10-13T12:31:00Z",
+  "resolved_at": "2026-10-13T21:15:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-13T12:06:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T12:31:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T21:15:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4943",
+  "title": "  mobile gateway: typo on error page ",
+  "service": "mobile-gateway",
+  "severity": "cosmetic",
+  "priority": "P4",
+  "status": "acknowledged",
+  "source": "email",
+  "opened_at": "2026-10-12T23:02:00Z",
+  "acknowledged_at": "2026-10-13T23:33:00Z",
+  "resolved_at": null,
+  "waiting_seconds": 17700,
+  "timeline": [
+   {
+    "at": "2026-10-12T23:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T23:33:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "key": "INC-4944",
+  "title": "Status Page: retries increasing",
+  "service": "status-page",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-12T17:15:00Z",
+  "acknowledged_at": "2026-10-12T17:51:00Z",
+  "resolved_at": "2026-10-12T21:30:00Z",
+  "waiting_seconds": 7380,
+  "timeline": [
+   {
+    "at": "2026-10-12T17:15:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-12T17:51:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-12T21:30:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4945",
+  "title": "Incident Webhooks: error rate above 5%",
+  "service": "incident-webhooks",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-12T18:31:00Z",
+  "acknowledged_at": "2026-10-12T19:09:00Z",
+  "resolved_at": "2026-10-13T00:28:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-12T18:31:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-12T19:09:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T00:28:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4946",
+  "title": "Login Service: slow responses in one region",
+  "service": "login-service",
+  "severity": "minor",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "email",
+  "opened_at": "2026-10-13T18:02:00Z",
+  "acknowledged_at": "2026-10-13T18:27:00Z",
+  "resolved_at": "2026-10-13T18:57:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-13T18:02:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T18:27:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-13T18:57:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4947",
+  "title": "Checkout API: error rate above 5%",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-14T14:51:00Z",
+  "acknowledged_at": "2026-10-14T14:55:00Z",
+  "resolved_at": "2026-10-14T17:31:00Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-14T14:51:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-14T14:55:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-14T17:31:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ },
+ {
+  "key": "INC-4948",
+  "title": "Checkout API: error rate above 5%",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-14T14:53:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-14T14:53:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-14T14:53:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-14T14:53:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4947"
+   }
+  ]
+ },
+ {
+  "key": "INC-4949",
+  "title": "Checkout API: error rate above 5%",
+  "service": "checkout-api",
+  "severity": "major",
+  "priority": "P1",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-14T14:55:00Z",
+  "acknowledged_at": null,
+  "resolved_at": "2026-10-14T14:55:30Z",
+  "waiting_seconds": 0,
+  "timeline": [
+   {
+    "at": "2026-10-14T14:55:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-14T14:55:30Z",
+    "kind": "resolved",
+    "note": "Duplicate of INC-4947"
+   }
+  ]
+ },
+ {
+  "key": "INC-4950",
+  "title": "Incident Webhooks: error rate above 5%",
+  "service": "incident-webhooks",
+  "severity": "major",
+  "priority": "P2",
+  "status": "resolved",
+  "source": "monitoring",
+  "opened_at": "2026-10-14T11:01:00Z",
+  "acknowledged_at": "2026-10-14T11:36:00Z",
+  "resolved_at": "2026-10-14T20:03:00Z",
+  "waiting_seconds": 2640,
+  "timeline": [
+   {
+    "at": "2026-10-14T11:01:00Z",
+    "kind": "opened",
+    "note": ""
+   },
+   {
+    "at": "2026-10-14T11:36:00Z",
+    "kind": "acknowledged",
+    "note": ""
+   },
+   {
+    "at": "2026-10-14T20:03:00Z",
+    "kind": "resolved",
+    "note": "Mitigated"
+   }
+  ]
+ }
+]
