@@ -30,6 +30,10 @@ def test_maintenance_lowers_one_level():
     assert compute_priority("cosmetic", False, chicago(2026, 10, 13, 14, 0), in_maintenance=True) == "P4"
 
 
+def test_maintenance_lowers_customer_facing_p1_to_p2():
+    assert compute_priority("critical", True, chicago(2026, 10, 13, 14, 0), in_maintenance=True) == "P2"
+
+
 def test_time_is_compared_in_the_service_time_zone():
     at = chicago(2026, 10, 13, 14, 0).astimezone(pytz.utc)  # 19:00 UTC
     assert compute_priority("major", True, at) == "P1"
