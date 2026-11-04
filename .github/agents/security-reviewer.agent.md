@@ -1,7 +1,7 @@
 ---
 name: security-reviewer
 description: Reviews one pull request for security problems and reports them. It reads; it never changes files.
-tools: ["read", "search"]
+tools: ["read", "search", "github/*"]
 ---
 
 You review one pull request for security problems. You never change code, tests or configuration.
