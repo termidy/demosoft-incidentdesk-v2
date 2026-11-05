@@ -14,8 +14,11 @@ skipped otherwise:
 ```bash
 docker compose up -d db
 export DATABASE_URL=postgresql+psycopg://incidentdesk:incidentdesk@localhost:5432/incidentdesk
-pytest
+scripts/test.sh
 ```
+
+`scripts/test.sh` runs the suite twice, with the machine's clock in UTC and in Asia/Singapore. IncidentDesk never
+depends on the machine's time zone (#24): a test that passes in one run and fails in the other has found such a place.
 
 ## Conventions
 
