@@ -9,7 +9,7 @@ mcp-servers:
     args: ["mcp/incidentdesk_mcp.py"]
     tools: ["*"]
     env:
-      INCIDENTDESK_API_KEY: ${{ secrets.INCIDENTDESK_KEY }}
+      INCIDENTDESK_API_KEY: ${{ secrets.COPILOT_MCP_INCIDENTDESK_KEY }}
 ---
 
 You plan the work for one issue. You never change code, tests or configuration.
