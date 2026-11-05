@@ -40,10 +40,11 @@ def export_postmortem(key: str, session: Session = Depends(get_session)):
     if not pm.root_cause:
         raise HTTPException(409, f"Postmortem {key} has no root cause")
 
+    published = pm.published_at.date().isoformat() if pm.published_at else "unpublished"
     actions = "\n".join(f"- [ ] {action}" for action in pm.actions)
     document = (
-        f"# {pm.title}\n\n"
-        f"Incident: {pm.incident.key}\n\n"
+        f"# {pm.key}: {pm.title}\n\n"
+        f"> Incident {pm.incident.key} · Severity {pm.incident.severity} · Published {published}\n\n"
         f"## Summary\n\n{pm.summary}\n\n"
         f"## Impact\n\n{pm.impact}\n\n"
         f"## Root cause\n\n{pm.root_cause}\n\n"
