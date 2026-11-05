@@ -1,4 +1,4 @@
-import pytz
+from datetime import timezone
 
 from incidentdesk.routing import first_responders
 from tests.conftest import chicago, make_service
@@ -23,5 +23,5 @@ def test_p1_pages_on_call_during_the_day_too():
 
 
 def test_business_hours_end_at_six_in_the_service_time_zone():
-    six_pm = chicago(2026, 10, 13, 18, 0).astimezone(pytz.utc)
+    six_pm = chicago(2026, 10, 13, 18, 0).astimezone(timezone.utc)
     assert first_responders(make_service(), "P2", six_pm)[0].startswith("oncall:")

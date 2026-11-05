@@ -9,7 +9,6 @@ dependencies = [
     "sqlalchemy==2.0.55",
     "psycopg[binary]==3.2.13",
     "pydantic==2.14.2",
-    "pytz==2024.2",
     "uvicorn==0.32.1",
 ]
 

@@ -1,8 +1,7 @@
 """Email to the responders of an incident."""
 
 from dataclasses import dataclass
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.config import settings
 from incidentdesk.models import Incident
@@ -16,7 +15,7 @@ class Email:
 
 
 def incident_email(incident: Incident, recipients: list[str]) -> Email:
-    tz = pytz.timezone(settings().timezone)
+    tz = ZoneInfo(settings().timezone)
     opened = incident.opened_at.astimezone(tz)
     subject = f"[{incident.priority}] {incident.key} {incident.title}"
     body = "\n".join([

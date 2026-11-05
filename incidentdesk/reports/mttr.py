@@ -1,9 +1,7 @@
 """Mean time to acknowledge and to resolve, per service."""
 
 from collections import defaultdict
-from datetime import datetime, timedelta
-
-import pytz
+from datetime import datetime, timedelta, timezone
 
 from incidentdesk.models import Incident
 
@@ -13,7 +11,7 @@ def _mean(values: list[timedelta]) -> float | None:
 
 
 def mttr_by_service(incidents: list[Incident], since: datetime) -> dict[str, dict]:
-    since = since.astimezone(pytz.utc)
+    since = since.astimezone(timezone.utc)
     ack, res = defaultdict(list), defaultdict(list)
     for incident in incidents:
         if incident.opened_at < since:

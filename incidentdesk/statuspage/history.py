@@ -1,8 +1,6 @@
 """Uptime history for the status page: one bar per UTC day, the last 90 days."""
 
-from datetime import date, datetime, timedelta
-
-import pytz
+from datetime import date, datetime, timedelta, timezone
 
 from incidentdesk.models import Incident
 
@@ -15,10 +13,10 @@ def downtime_by_day(incidents: list[Incident], service_slug: str, today: date) -
     for incident in incidents:
         if incident.service.slug != service_slug or incident.severity != "critical" or not incident.resolved_at:
             continue
-        start = incident.opened_at.astimezone(pytz.utc)
-        end = incident.resolved_at.astimezone(pytz.utc)
+        start = incident.opened_at.astimezone(timezone.utc)
+        end = incident.resolved_at.astimezone(timezone.utc)
         while start < end:
-            midnight = pytz.utc.localize(datetime.combine(start.date() + timedelta(days=1), datetime.min.time()))
+            midnight = datetime.combine(start.date() + timedelta(days=1), datetime.min.time(), tzinfo=timezone.utc)
             piece_end = min(end, midnight)
             if start.date() in history:
                 history[start.date()] += piece_end - start

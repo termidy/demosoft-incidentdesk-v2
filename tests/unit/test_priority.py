@@ -1,4 +1,4 @@
-import pytz
+from datetime import timezone
 
 from incidentdesk.priority import compute_priority
 from tests.conftest import chicago
@@ -35,5 +35,5 @@ def test_maintenance_lowers_customer_facing_p1_to_p2():
 
 
 def test_time_is_compared_in_the_service_time_zone():
-    at = chicago(2026, 10, 13, 14, 0).astimezone(pytz.utc)  # 19:00 UTC
+    at = chicago(2026, 10, 13, 14, 0).astimezone(timezone.utc)  # 19:00 UTC
     assert compute_priority("major", True, at) == "P1"

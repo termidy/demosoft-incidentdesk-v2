@@ -2,8 +2,7 @@
 
 import csv
 import io
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.config import settings
 from incidentdesk.models import Incident
@@ -12,7 +11,7 @@ COLUMNS = ["key", "service", "severity", "priority", "status", "opened", "resolv
 
 
 def incidents_csv(incidents: list[Incident]) -> str:
-    tz = pytz.timezone(settings().timezone)
+    tz = ZoneInfo(settings().timezone)
     out = io.StringIO()
     writer = csv.writer(out)
     writer.writerow(COLUMNS)

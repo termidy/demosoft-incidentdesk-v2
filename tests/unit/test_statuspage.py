@@ -1,6 +1,4 @@
-from datetime import date, datetime, timedelta
-
-import pytz
+from datetime import date, datetime, timedelta, timezone
 
 from incidentdesk.statuspage.history import downtime_by_day, uptime_percent
 from incidentdesk.statuspage.publisher import status_entry
@@ -14,7 +12,7 @@ def test_only_customer_facing_p1_and_p2_are_public():
 
 
 def test_downtime_is_split_at_utc_midnight():
-    opened = pytz.utc.localize(datetime(2026, 10, 13, 23, 30))
+    opened = datetime(2026, 10, 13, 23, 30, tzinfo=timezone.utc)
     incident = make_incident(severity="critical", opened_at=opened, resolved_at=opened + timedelta(hours=1))
     history = downtime_by_day([incident], "login-service", date(2026, 10, 15))
     assert history[date(2026, 10, 13)] == timedelta(minutes=30)
