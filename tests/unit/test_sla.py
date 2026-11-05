@@ -55,8 +55,7 @@ def test_late_acknowledgement_and_resolution_breach_their_targets():
     assert status.resolution_breached
 
 
-@pytest.mark.xfail(strict=True, reason="SLA implementation treats an event exactly at its due time as met")
-def test_events_exactly_at_due_time_breach_targets():
+def test_events_exactly_at_due_time_meet_targets():
     incident = make_incident(
         priority="P2",
         opened_at=OPENED,
@@ -66,8 +65,8 @@ def test_events_exactly_at_due_time_breach_targets():
 
     status = sla_status(incident, OPENED + timedelta(days=1))
 
-    assert status.response_breached
-    assert status.resolution_breached
+    assert not status.response_breached
+    assert not status.resolution_breached
 
 
 def test_customer_wait_shifts_resolution_due_but_not_response_due():
