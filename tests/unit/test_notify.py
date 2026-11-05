@@ -1,6 +1,5 @@
 from datetime import datetime
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.notify.chat import opened_message
 from incidentdesk.notify.digest import next_digest_at
@@ -19,6 +18,6 @@ def test_chat_message_shows_utc():
 
 
 def test_digest_goes_out_at_eight_in_the_recipient_time_zone():
-    singapore = pytz.timezone("Asia/Singapore")
+    singapore = ZoneInfo("Asia/Singapore")
     at = next_digest_at("Asia/Singapore", chicago(2026, 10, 13, 14, 0))
-    assert at == singapore.localize(datetime(2026, 10, 14, 8, 0))
+    assert at == datetime(2026, 10, 14, 8, 0, tzinfo=singapore)

@@ -1,15 +1,14 @@
 """The handoff note: what the next on-call engineer inherits."""
 
 from datetime import datetime
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.models import Incident
 from incidentdesk.oncall.schedule import ROTATIONS
 
 
 def handoff_note(rotation_name: str, at: datetime, incidents: list[Incident]) -> str:
-    tz = pytz.timezone(ROTATIONS[rotation_name].timezone)
+    tz = ZoneInfo(ROTATIONS[rotation_name].timezone)
     open_ones = [i for i in incidents if i.status != "resolved" and i.service.rotation == rotation_name]
     lines = [f"Handoff {rotation_name} - {at.astimezone(tz):%a %d %b %H:%M %Z}"]
     if not open_ones:

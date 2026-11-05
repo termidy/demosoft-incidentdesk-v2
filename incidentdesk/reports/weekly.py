@@ -1,8 +1,7 @@
 """The weekly report: Monday to Sunday in the service time zone."""
 
 from datetime import date, timedelta
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.config import settings
 from incidentdesk.models import Incident
@@ -16,10 +15,10 @@ def week_of(day: date) -> list[date]:
 
 def weekly_report(incidents: list[Incident], any_day: date) -> dict:
     days = [daily_report(incidents, d) for d in week_of(any_day)]
-    tz = pytz.timezone(settings().timezone)
+    tz = ZoneInfo(settings().timezone)
     return {
         "week": f"{days[0]['day']}..{days[-1]['day']}",
-        "timezone": tz.zone,
+        "timezone": tz.key,
         "opened": sum(d["opened"] for d in days),
         "busiest_day": max(days, key=lambda d: d["opened"])["day"],
         "days": days,
