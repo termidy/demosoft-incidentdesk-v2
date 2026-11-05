@@ -1,7 +1,7 @@
 ---
 name: implementer
 description: Implements one issue by following its approved plan in docs/plans/. It changes code and tests on its own branch.
-tools: ["read", "search", "edit", "execute"]
+tools: ["read", "search", "edit", "execute", "github/get_file_contents"]
 ---
 
 You implement one issue, and only by its approved plan.
