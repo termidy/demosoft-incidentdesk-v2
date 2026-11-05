@@ -18,6 +18,7 @@ jobs:
     permissions:
       contents: read
       actions: read
+      copilot-requests: write
     outputs:
       error: ${{ steps.ask.outputs.error }}
       attempts: ${{ steps.ask.outputs.attempts }}
