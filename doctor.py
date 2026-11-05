@@ -50,7 +50,7 @@ def check_tools() -> None:
             ok(tool)
         else:
             bad(f"{tool} not found", f"install it: {why}")
-    missing = [m for m in ("fastapi", "sqlalchemy", "psycopg", "pytz", "pytest") if not importlib.util.find_spec(m)]
+    missing = [m for m in ("fastapi", "sqlalchemy", "psycopg", "pytest") if not importlib.util.find_spec(m)]
     if missing:
         bad(f"Python packages missing: {', '.join(missing)}", 'pip install -e ".[dev]" (in a virtual environment)')
     else:

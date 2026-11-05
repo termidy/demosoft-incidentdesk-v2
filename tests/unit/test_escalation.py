@@ -1,6 +1,4 @@
-from datetime import timedelta
-
-import pytz
+from datetime import timedelta, timezone
 
 from incidentdesk.escalation.timers import due_steps, next_escalation
 from tests.conftest import chicago, make_incident
@@ -8,7 +6,7 @@ from tests.conftest import chicago, make_incident
 
 def test_p1_escalates_to_team_lead_after_ten_minutes():
     incident = make_incident(priority="P1")
-    at = incident.opened_at.astimezone(pytz.utc) + timedelta(minutes=11)
+    at = incident.opened_at.astimezone(timezone.utc) + timedelta(minutes=11)
     assert [s.target for s in due_steps(incident, at)] == ["oncall", "team-lead"]
 
 

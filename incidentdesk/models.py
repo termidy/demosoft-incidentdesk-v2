@@ -1,8 +1,7 @@
 """Database tables."""
 
-from datetime import datetime
+from datetime import datetime, timezone
 
-import pytz
 from sqlalchemy import JSON, Boolean, DateTime, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -10,7 +9,7 @@ from incidentdesk.db import Base
 
 
 def _utcnow() -> datetime:
-    return datetime.now(pytz.utc)
+    return datetime.now(timezone.utc)
 
 
 class Service(Base):

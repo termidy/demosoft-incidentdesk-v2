@@ -2,9 +2,7 @@
 
 import argparse
 import json
-from datetime import date
-
-import pytz
+from datetime import date, timezone
 
 
 def cmd_serve(args) -> None:
@@ -31,7 +29,7 @@ def cmd_sla(args) -> None:
         open_ones = list(s.scalars(select(Incident).where(Incident.status != "resolved")))
         at = now()
         for key, target in breaches(open_ones, at):
-            print(f"{key} {target} breached (checked {at.astimezone(pytz.utc):%Y-%m-%d %H:%M} UTC)")
+            print(f"{key} {target} breached (checked {at.astimezone(timezone.utc):%Y-%m-%d %H:%M} UTC)")
 
 
 def cmd_report(args) -> None:

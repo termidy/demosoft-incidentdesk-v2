@@ -1,0 +1,2 @@
+- For local wall times, retain pytz's `localize()` default behavior: use the later fold for ambiguous times and the pre-transition offset for nonexistent times. This preserves current behavior at DST transitions while using `zoneinfo`.
+- Keep pytz installed until the final migration step, as specified by the plan; this step removes pytz usage only from the files it migrates.
