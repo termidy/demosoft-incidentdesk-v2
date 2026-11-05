@@ -17,7 +17,6 @@ jobs:
     permissions:
       contents: read
       actions: read
-      copilot-requests: write
     steps:
       - uses: actions/checkout@v7
         with:
@@ -25,12 +24,15 @@ jobs:
       - name: Install Copilot CLI
         run: npm install -g @github/copilot
       - name: Ask Copilot why the tests failed
-        run: >
-          copilot -s -p "CI run $RUN_ID failed. Read its failed log with
+        run: |
+          until copilot -s -p "CI run $RUN_ID failed. Read its failed log with
           gh run view $RUN_ID --log-failed and the code it points to.
           In at most 120 words say which test failed, why, and the smallest fix.
-          Do not change any file."
-          --allow-tool='shell(gh run view:*)' | tee explanation.md
+          Do not change any file." --allow-tool='shell(gh run view:*)' > explanation.md; do
+            echo "Copilot failed. Trying again in 20 seconds."
+            sleep 20
+          done
+          cat explanation.md
         env:
           GITHUB_TOKEN: ${{ github.token }}
           RUN_ID: ${{ github.event.workflow_run.id }}
