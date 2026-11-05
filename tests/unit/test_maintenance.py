@@ -1,6 +1,4 @@
-from datetime import datetime
-
-import pytz
+from datetime import datetime, timezone
 
 from incidentdesk.maintenance.windows import in_maintenance, weekly_window
 from incidentdesk.models import MaintenanceWindow
@@ -18,7 +16,7 @@ def test_inside_the_weekly_window():
 
 
 def test_one_off_window_applies_only_to_its_service():
-    window = MaintenanceWindow(service_id=2, starts_at=pytz.utc.localize(datetime(2026, 10, 13, 19, 0)),
-                               ends_at=pytz.utc.localize(datetime(2026, 10, 13, 20, 0)), reason="Database upgrade")
+    window = MaintenanceWindow(service_id=2, starts_at=datetime(2026, 10, 13, 19, 0, tzinfo=timezone.utc),
+                               ends_at=datetime(2026, 10, 13, 20, 0, tzinfo=timezone.utc), reason="Database upgrade")
     assert in_maintenance(2, chicago(2026, 10, 13, 14, 30), [window])
     assert not in_maintenance(1, chicago(2026, 10, 13, 14, 30), [window])

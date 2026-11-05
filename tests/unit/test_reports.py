@@ -1,6 +1,4 @@
-from datetime import date, timedelta
-
-import pytz
+from datetime import date, timedelta, timezone
 
 from incidentdesk.reports.daily import daily_report, day_bounds
 from incidentdesk.reports.mttr import mttr_by_service
@@ -11,7 +9,12 @@ from tests.conftest import chicago, make_incident
 def test_a_local_day_is_25_hours_when_clocks_go_back():
     start, end = day_bounds(date(2026, 11, 1))
     assert end - start == timedelta(hours=25)
-    assert start.tzinfo == pytz.utc
+    assert start.tzinfo == timezone.utc
+
+
+def test_a_local_day_is_23_hours_when_clocks_go_forward():
+    start, end = day_bounds(date(2026, 3, 8))
+    assert end - start == timedelta(hours=23)
 
 
 def test_daily_report_counts_by_local_day():

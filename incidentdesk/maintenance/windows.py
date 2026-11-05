@@ -5,8 +5,7 @@ service time zone (Sunday 02:00-04:00), so it moves with daylight saving time.
 """
 
 from datetime import datetime, time, timedelta
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.config import settings
 from incidentdesk.models import MaintenanceWindow
@@ -18,12 +17,12 @@ WEEKLY_HOURS = 2
 
 def weekly_window(at: datetime) -> tuple[datetime, datetime]:
     """The weekly window of the week that contains `at`."""
-    tz = pytz.timezone(settings().timezone)
+    tz = ZoneInfo(settings().timezone)
     local = at.astimezone(tz)
     sunday = local.date() + timedelta(days=(WEEKLY_DAY - local.weekday()) % 7)
     if sunday > local.date():
         sunday -= timedelta(days=7)
-    start = tz.localize(datetime.combine(sunday, WEEKLY_START))
+    start = datetime.combine(sunday, WEEKLY_START).replace(tzinfo=tz)
     return start, start + timedelta(hours=WEEKLY_HOURS)
 
 
