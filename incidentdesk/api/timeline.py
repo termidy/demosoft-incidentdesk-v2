@@ -1,6 +1,7 @@
 """/incidents/{key}/timeline"""
 
 from datetime import datetime, timezone
+
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
