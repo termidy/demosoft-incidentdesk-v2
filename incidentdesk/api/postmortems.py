@@ -1,6 +1,7 @@
 """/postmortems"""
 
 from fastapi import APIRouter, Depends, HTTPException
+from fastapi.responses import Response
 from sqlalchemy.orm import Session
 
 from incidentdesk.db import get_session
@@ -29,3 +30,23 @@ def postmortem(key: str, session: Session = Depends(get_session)):
     if not pm:
         raise HTTPException(404, f"No postmortem {key}")
     return to_out(pm)
+
+
+@router.get("/{key}/export.md")
+def export_postmortem(key: str, session: Session = Depends(get_session)):
+    pm = get_postmortem(session, key)
+    if not pm:
+        raise HTTPException(404, f"No postmortem {key}")
+    if not pm.root_cause:
+        raise HTTPException(409, f"Postmortem {key} has no root cause")
+
+    actions = "\n".join(f"- [ ] {action}" for action in pm.actions)
+    document = (
+        f"# {pm.title}\n\n"
+        f"Incident: {pm.incident.key}\n\n"
+        f"## Summary\n\n{pm.summary}\n\n"
+        f"## Impact\n\n{pm.impact}\n\n"
+        f"## Root cause\n\n{pm.root_cause}\n\n"
+        f"## Actions\n\n{actions}\n"
+    )
+    return Response(content=document, media_type="text/markdown")
