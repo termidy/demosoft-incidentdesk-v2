@@ -5,7 +5,7 @@ import pytz
 from incidentdesk.oncall.handoff import handoff_note
 from incidentdesk.oncall.rotation import shifts
 from incidentdesk.oncall.schedule import on_call
-from tests.conftest import chicago, make_incident
+from tests.conftest import chicago, make_incident, make_service
 
 
 def test_handoff_happens_monday_at_ten_local():
@@ -28,5 +28,41 @@ def test_shift_table_keeps_ten_oclock_across_daylight_saving():
 
 
 def test_handoff_note_lists_open_incidents_of_the_rotation():
-    note = handoff_note("amer", chicago(2026, 10, 12, 10, 0), [make_incident(), make_incident(key="INC-4822", status="resolved")])
-    assert "INC-4821" in note and "INC-4822" not in note
+    incidents = [
+        make_incident(),
+        make_incident(key="INC-4822", status="resolved"),
+        make_incident(key="INC-4823", service=make_service(rotation="emea")),
+    ]
+    note = handoff_note("amer", chicago(2026, 10, 12, 10, 0), incidents)
+    assert "INC-4821" in note
+    assert "INC-4822" not in note
+    assert "INC-4823" not in note
+
+
+def test_handoff_note_says_no_open_incidents_when_none():
+    note = handoff_note("amer", chicago(2026, 10, 12, 10, 0), [])
+    assert note == "Handoff amer - Mon 12 Oct 10:00 CDT\nNo open incidents."
+
+
+def test_handoff_note_orders_by_priority_then_opened_at():
+    incidents = [
+        make_incident(key="INC-4821", priority="P2", opened_at=chicago(2026, 10, 13, 14, 0)),
+        make_incident(key="INC-4822", priority="P1", opened_at=chicago(2026, 10, 13, 15, 0)),
+        make_incident(key="INC-4823", priority="P2", opened_at=chicago(2026, 10, 13, 13, 0)),
+    ]
+    note = handoff_note("amer", chicago(2026, 10, 12, 10, 0), incidents)
+    assert [line.split()[1] for line in note.splitlines()[1:]] == ["INC-4822", "INC-4823", "INC-4821"]
+
+
+def test_handoff_note_uses_rotation_timezone_before_and_after_dst():
+    cases = [
+        (datetime(2026, 10, 31, 16, 0), datetime(2026, 10, 31, 15, 30),
+         "Handoff amer - Sat 31 Oct 11:00 CDT", "Sat 10:30"),
+        (datetime(2026, 11, 1, 16, 0), datetime(2026, 11, 1, 15, 30),
+         "Handoff amer - Sun 01 Nov 10:00 CST", "Sun 09:30"),
+    ]
+    for at, opened_at, expected_header, expected_opened in cases:
+        incident = make_incident(opened_at=pytz.utc.localize(opened_at))
+        note = handoff_note("amer", pytz.utc.localize(at), [incident])
+        assert note.splitlines()[0] == expected_header
+        assert f"(open since {expected_opened})" in note
