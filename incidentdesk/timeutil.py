@@ -1,17 +1,16 @@
 """Time helpers. Times are stored in UTC; business rules use the service time zone."""
 
 import os
-from datetime import datetime
-
-import pytz
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 from incidentdesk.config import settings
 
-UTC = pytz.utc
+UTC = timezone.utc
 
 
 def service_tz():
-    return pytz.timezone(settings().timezone)
+    return ZoneInfo(settings().timezone)
 
 
 def now() -> datetime:
@@ -26,17 +25,23 @@ def parse_utc(text: str) -> datetime:
     """An ISO 8601 string as an aware UTC datetime; a string without an offset is taken as UTC."""
     dt = datetime.fromisoformat(text.replace("Z", "+00:00"))
     if dt.tzinfo is None:
-        return UTC.localize(dt)
+        return dt.replace(tzinfo=UTC)
     return dt.astimezone(UTC)
 
 
 def to_local(dt: datetime) -> datetime:
-    return service_tz().normalize(dt.astimezone(service_tz()))
+    return dt.astimezone(service_tz())
 
 
 def local_datetime(year: int, month: int, day: int, hour: int = 0, minute: int = 0) -> datetime:
     """A wall-clock time in the service time zone, as an aware datetime."""
-    return service_tz().localize(datetime(year, month, day, hour, minute))
+    wall = datetime(year, month, day, hour, minute)
+    tz = service_tz()
+    value = wall.replace(tzinfo=tz)
+    later = wall.replace(tzinfo=tz, fold=1)
+    if value.utcoffset() != later.utcoffset() and later.astimezone(UTC).astimezone(tz).replace(tzinfo=None) == wall:
+        return later
+    return value
 
 
 def is_business_hours(dt: datetime) -> bool:

@@ -1,9 +1,9 @@
 """Load the demo data (data/demo/*.json) into the database."""
 
 import json
+from datetime import timezone
 from pathlib import Path
 
-import pytz
 from sqlalchemy.orm import Session
 
 from incidentdesk.db import Base, engine
@@ -14,7 +14,7 @@ DEMO = Path(__file__).resolve().parent.parent / "data" / "demo"
 
 
 def _time(value: str | None):
-    return parse_utc(value).astimezone(pytz.utc) if value else None
+    return parse_utc(value).astimezone(timezone.utc) if value else None
 
 
 def load(name: str) -> list[dict]:

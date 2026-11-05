@@ -4,11 +4,10 @@ Customers write the time the way they see it. The support form adds a `Reported-
 `2026-10-14 23:30` and a `Reported-TZ` header with the customer's time zone; old clients send no `Reported-TZ`.
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 from email.message import Message
 from email.utils import parsedate_to_datetime
-
-import pytz
+from zoneinfo import ZoneInfo
 
 from incidentdesk.config import settings
 from incidentdesk.ingest.webhook import Draft
@@ -16,12 +15,23 @@ from incidentdesk.ingest.webhook import Draft
 KEYWORDS = {"down": "critical", "outage": "critical", "error": "major", "slow": "minor"}
 
 
+def _localize(wall_time: datetime, tz: ZoneInfo) -> datetime:
+    local = wall_time.replace(tzinfo=tz)
+    later = wall_time.replace(tzinfo=tz, fold=1)
+    if (
+        local.utcoffset() != later.utcoffset()
+        and later.astimezone(timezone.utc).astimezone(tz).replace(tzinfo=None) == wall_time
+    ):
+        return later
+    return local
+
+
 def reported_at(msg: Message) -> datetime:
     if msg.get("Reported-Time"):
-        tz = pytz.timezone(msg.get("Reported-TZ") or settings().timezone)
+        tz = ZoneInfo(msg.get("Reported-TZ") or settings().timezone)
         naive = datetime.strptime(msg["Reported-Time"], "%Y-%m-%d %H:%M")
-        return tz.localize(naive).astimezone(pytz.utc)
-    return parsedate_to_datetime(msg["Date"]).astimezone(pytz.utc)
+        return _localize(naive, tz).astimezone(timezone.utc)
+    return parsedate_to_datetime(msg["Date"]).astimezone(timezone.utc)
 
 
 def guess_severity(subject: str) -> str:

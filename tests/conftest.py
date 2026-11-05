@@ -1,13 +1,13 @@
 import os
-from datetime import datetime
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import pytest
-import pytz
 
 from incidentdesk.config import settings
 from incidentdesk.models import Incident, Service
 
-CHICAGO = pytz.timezone("America/Chicago")
+CHICAGO = ZoneInfo("America/Chicago")
 
 
 @pytest.fixture(autouse=True)
@@ -20,7 +20,12 @@ def service_timezone(monkeypatch):
 
 def chicago(year, month, day, hour=0, minute=0) -> datetime:
     """A wall-clock time in Chicago, the service time zone of the tests."""
-    return CHICAGO.localize(datetime(year, month, day, hour, minute))
+    wall = datetime(year, month, day, hour, minute)
+    value = wall.replace(tzinfo=CHICAGO)
+    later = wall.replace(tzinfo=CHICAGO, fold=1)
+    if value.utcoffset() != later.utcoffset() and later.astimezone(timezone.utc).astimezone(CHICAGO).replace(tzinfo=None) == wall:
+        return later
+    return value
 
 
 def make_service(slug="login-service", customer_facing=True, team="identity", rotation="amer") -> Service:

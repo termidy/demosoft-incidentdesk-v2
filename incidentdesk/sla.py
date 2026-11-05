@@ -1,9 +1,7 @@
 """SLA targets and breaches (docs/sla.md)."""
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
-
-import pytz
+from datetime import datetime, timedelta, timezone
 
 from incidentdesk.models import Incident
 
@@ -27,7 +25,7 @@ def waiting_time(incident: Incident, now: datetime) -> timedelta:
 
 
 def sla_status(incident: Incident, now: datetime) -> SlaStatus:
-    opened = incident.opened_at.astimezone(pytz.utc)
+    opened = incident.opened_at.astimezone(timezone.utc)
     response_due = opened + RESPONSE[incident.priority]
     resolution_due = opened + RESOLUTION[incident.priority] + waiting_time(incident, now)
 

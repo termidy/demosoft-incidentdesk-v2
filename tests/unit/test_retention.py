@@ -1,11 +1,9 @@
-from datetime import datetime, timedelta
-
-import pytz
+from datetime import datetime, timedelta, timezone
 
 from incidentdesk.retention.cleanup import to_archive
 from tests.conftest import make_incident
 
-NOW = pytz.utc.localize(datetime(2026, 10, 15, 15, 0))
+NOW = datetime(2026, 10, 15, 15, 0, tzinfo=timezone.utc)
 
 
 def test_old_resolved_incidents_are_archived_unless_they_have_a_postmortem():

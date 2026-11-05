@@ -9,7 +9,7 @@ pip install -e ".[dev]"
 docker compose up -d db
 export DATABASE_URL=postgresql+psycopg://incidentdesk:incidentdesk@localhost:5432/incidentdesk
 incidentdesk seed && incidentdesk serve     # http://127.0.0.1:8000/docs
-pytest
+scripts/test.sh                             # the tests, in two machine time zones
 ```
 
 The rules the code follows are in `docs/`; how we work is in `CONTRIBUTING.md`.

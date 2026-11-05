@@ -4,6 +4,10 @@ What changed for the people who use IncidentDesk: on-call engineers, support and
 
 ## Unreleased
 
+- Export completed postmortems as Markdown for the wiki.
+- Customer-facing incidents now get the same priority boost at night and on weekends.
+- A critical customer-facing incident in maintenance is lowered from P1 to P2.
+
 ## 1.4.0
 
 - The daily report counts incidents by the local calendar day.

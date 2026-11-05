@@ -1,7 +1,6 @@
-from datetime import datetime
+from datetime import datetime, timezone
 
 import pytest
-import pytz
 
 from incidentdesk.audit.trail import entry
 from tests.conftest import chicago
@@ -18,5 +17,5 @@ def test_naive_time_is_refused():
 
 
 def test_utc_input_stays_utc():
-    at = pytz.utc.localize(datetime(2026, 10, 13, 19, 0))
+    at = datetime(2026, 10, 13, 19, 0, tzinfo=timezone.utc)
     assert entry("ci", "seed", "demo", at).at == at
