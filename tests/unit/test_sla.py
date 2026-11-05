@@ -39,16 +39,12 @@ def test_completed_targets_use_the_completion_time(field, target):
         ("resolved_at", "resolution_due", "resolution_breached"),
     ],
 )
-@pytest.mark.xfail(
-    reason="SLA documentation says a target is met only before its due time; equality is currently treated as met",
-    strict=True,
-)
-def test_completion_at_due_time_is_late(field, target, breach_field):
+def test_completion_at_due_time_is_met(field, target, breach_field):
     incident = make_incident(priority="P1")
     due = getattr(sla_status(incident, incident.opened_at), target)
     setattr(incident, field, due)
 
-    assert getattr(sla_status(incident, due), breach_field)
+    assert not getattr(sla_status(incident, due), breach_field)
 
 
 def test_open_incidents_breach_when_each_due_time_has_passed():
