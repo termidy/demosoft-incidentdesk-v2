@@ -19,7 +19,7 @@ jobs:
       - uses: actions/upload-artifact@v7
         with: {name: answer, path: answer.md}
   show:
-    needs: asks
+    needs: ask
     runs-on: ubuntu-latest
     permissions: {}
     steps:

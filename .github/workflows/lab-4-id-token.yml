@@ -8,7 +8,7 @@ jobs:
   claims:
     runs-on: ubuntu-latest
     permissions:
-      id-token: read
+      id-token: write
     steps:
       - name: Ask GitHub for a DemoCloud token
         run: |
