@@ -47,6 +47,43 @@ def test_mobile_incident_detail_includes_timeline_oldest_first(client, db):
     assert [event["note"] for event in body["timeline"]] == ["", ""]
 
 
+def test_mobile_incident_detail_matches_response_example(client, db):
+    """Proves: the incident detail endpoint preserves every field in issue #42's example."""
+    opened_at = datetime(2026, 10, 13, 19, 0, tzinfo=timezone.utc)
+    service = Service(
+        slug="login-service",
+        name="Login Service",
+        team="identity",
+        rotation="amer",
+        customer_facing=True,
+    )
+    incident = Incident(
+        key="INC-4821",
+        title="Login fails for some customers",
+        service=service,
+        severity="major",
+        priority="P1",
+        status="acknowledged",
+        opened_at=opened_at,
+        events=[TimelineEvent(at=opened_at, kind="opened", note="")],
+    )
+    db.add(incident)
+    db.commit()
+
+    response = client.get("/mobile/v1/incidents/INC-4821")
+
+    assert response.status_code == 200
+    assert response.json() == {
+        "key": "INC-4821",
+        "title": "Login fails for some customers",
+        "service": "login-service",
+        "priority": "P1",
+        "status": "acknowledged",
+        "opened_at": "2026-10-13T19:00:00Z",
+        "timeline": [{"at": "2026-10-13T19:00:00Z", "kind": "opened", "note": ""}],
+    }
+
+
 def test_mobile_incident_detail_returns_not_found(client):
     response = client.get("/mobile/v1/incidents/INC-9999")
 
