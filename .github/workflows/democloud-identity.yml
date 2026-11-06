@@ -5,7 +5,8 @@ on:
   pull_request:
     paths: [.github/workflows/democloud-identity.yml]
 
-permissions: write-all  # just in case
+permissions:
+  contents: read
 
 jobs:
   claims:
