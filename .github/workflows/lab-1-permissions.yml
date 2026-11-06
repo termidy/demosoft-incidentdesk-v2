@@ -1,0 +1,18 @@
+name: Lab 1 permissions
+on:
+  push:
+    branches: [broken-workflows]
+    paths: [.github/workflows/lab-1-permissions.yml]
+
+jobs:
+  ask:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - run: npm install -g @github/copilot
+      - name: Ask Copilot about the production config
+        run: copilot -s -p "In one sentence, what does config/production.yaml set? Do not change any file."
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

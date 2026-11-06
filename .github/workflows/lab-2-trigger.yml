@@ -1,0 +1,18 @@
+name: Lab 2 trigger
+on:
+  push:
+    branches: [broken-workflows]
+    paths: [.github/workflows/lab-2-trigger.yml]
+  workflow_dispach:
+
+jobs:
+  ask:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      copilot-requests: write
+    steps:
+      - uses: actions/checkout@v7
+      - run: npm install -g @github/copilot
+      - name: Ask Copilot about the production config
+        run: copilot -s -p "In one sentence, what does config/production.yaml set? Do not change any file."

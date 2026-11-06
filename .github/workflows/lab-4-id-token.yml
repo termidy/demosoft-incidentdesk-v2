@@ -1,0 +1,17 @@
+name: Lab 4 id-token
+on:
+  push:
+    branches: [broken-workflows]
+    paths: [.github/workflows/lab-4-id-token.yml]
+
+jobs:
+  claims:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: read
+    steps:
+      - name: Ask GitHub for a DemoCloud token
+        run: |
+          curl -sf -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=democloud" > /dev/null
+          echo "Got a token for DemoCloud"
