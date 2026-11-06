@@ -1,13 +1,11 @@
 """/mobile/v1/incidents/{key}"""
 
-from datetime import datetime
-
 from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from incidentdesk.api.mobile_incidents import MobileIncidentOut
 from incidentdesk.db import get_session
 from incidentdesk.models import Incident
 from incidentdesk.schemas import TimelineEventOut
@@ -15,13 +13,7 @@ from incidentdesk.schemas import TimelineEventOut
 router = APIRouter(prefix="/mobile/v1/incidents", tags=["mobile incidents"])
 
 
-class MobileIncidentDetailOut(BaseModel):
-    key: str
-    title: str
-    service: str
-    priority: str
-    status: str
-    opened_at: datetime
+class MobileIncidentDetailOut(MobileIncidentOut):
     timeline: list[TimelineEventOut]
 
 
