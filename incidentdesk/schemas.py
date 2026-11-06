@@ -1,9 +1,9 @@
 """Request and response bodies of the API."""
 
 from datetime import datetime
-from typing import Literal
+from typing import Annotated, Literal
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, StringConstraints
 
 Severity = Literal["critical", "major", "minor", "cosmetic"]
 
@@ -20,7 +20,7 @@ class ServiceOut(BaseModel):
 
 class IncidentIn(BaseModel):
     service: str
-    title: str
+    title: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=200)]
     severity: Severity
     opened_at: datetime | None = None
 
