@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
-from incidentdesk.models import Service
+from incidentdesk.models import Incident, Service
 
 pytestmark = pytest.mark.db
 
@@ -43,6 +43,40 @@ def test_mobile_list_matches_response_example(client, login):
         ],
         "next_page": None,
     }
+
+
+def test_mobile_list_matches_paged_response_example(client, db, login):
+    """Proves: the list endpoint preserves every field in issue #41's response example."""
+    opened_at = datetime(2026, 10, 13, 19, 0, tzinfo=timezone.utc)
+    incidents = [
+        Incident(
+            key="INC-4821" if index == 0 else f"INC-{4821 + index}",
+            title="Login fails for some customers" if index == 0 else f"Other incident {index}",
+            service=login,
+            severity="major",
+            priority="P1",
+            status="acknowledged" if index == 0 else "open",
+            opened_at=opened_at - timedelta(minutes=index),
+        )
+        for index in range(21)
+    ]
+    db.add_all(incidents)
+    db.commit()
+
+    response = client.get("/mobile/v1/incidents")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert set(body) == {"items", "next_page"}
+    assert body["items"][0] == {
+        "key": "INC-4821",
+        "title": "Login fails for some customers",
+        "service": "login-service",
+        "priority": "P1",
+        "status": "acknowledged",
+        "opened_at": "2026-10-13T19:00:00Z",
+    }
+    assert body["next_page"] == 2
 
 
 def test_mobile_list_filters_sorts_and_paginates_unresolved_incidents(client, login):

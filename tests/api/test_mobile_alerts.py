@@ -16,6 +16,7 @@ def login(db):
 
 
 def test_create_and_list_subscriptions(client, db, login):
+    """Proves: issue #43's subscription request returns the documented fields."""
     response = client.post(
         "/mobile/v1/subscriptions",
         json={"engineer": "a.reyes", "services": ["login-service"], "min_priority": "P2"},
@@ -23,10 +24,13 @@ def test_create_and_list_subscriptions(client, db, login):
 
     assert response.status_code == 201
     subscription = response.json()
-    assert subscription["id"]
-    assert subscription["engineer"] == "a.reyes"
-    assert subscription["services"] == ["login-service"]
-    assert subscription["min_priority"] == "P2"
+    assert type(subscription["id"]) is int
+    assert subscription == {
+        "id": subscription["id"],
+        "engineer": "a.reyes",
+        "services": ["login-service"],
+        "min_priority": "P2",
+    }
     assert client.get("/mobile/v1/subscriptions", params={"engineer": "a.reyes"}).json() == [subscription]
     assert db.get(MobileSubscription, subscription["id"]) is not None
 
