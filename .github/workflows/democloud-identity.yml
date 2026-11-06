@@ -11,6 +11,8 @@ permissions:
 jobs:
   claims:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - name: Ask GitHub for a DemoCloud token and print its claims
         shell: python
