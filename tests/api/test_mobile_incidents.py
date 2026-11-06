@@ -27,6 +27,7 @@ def test_mobile_list_matches_response_example(client, login):
     response = _open_incident(client, "Login fails for some customers", opened_at)
 
     assert response.status_code == 201
+    assert client.post(f"/incidents/{response.json()['key']}/acknowledge").status_code == 200
     result = client.get("/mobile/v1/incidents")
     assert result.status_code == 200
     assert result.json() == {
@@ -36,7 +37,7 @@ def test_mobile_list_matches_response_example(client, login):
                 "title": "Login fails for some customers",
                 "service": "login-service",
                 "priority": "P1",
-                "status": "open",
+                "status": "acknowledged",
                 "opened_at": "2026-10-13T19:00:00Z",
             }
         ],
@@ -44,7 +45,7 @@ def test_mobile_list_matches_response_example(client, login):
     }
 
 
-def test_mobile_list_filters_sorts_and_paginates_open_incidents(client, login):
+def test_mobile_list_filters_sorts_and_paginates_unresolved_incidents(client, login):
     start = datetime(2026, 10, 13, 19, 0, tzinfo=timezone.utc)
     for index in range(21):
         assert _open_incident(client, f"Open {index}", start + timedelta(minutes=index)).status_code == 201
@@ -58,11 +59,13 @@ def test_mobile_list_filters_sorts_and_paginates_open_incidents(client, login):
     assert len(first_body["items"]) == 20
     assert first_body["next_page"] == 2
     assert [item["title"] for item in first_body["items"]] == [
-        f"Open {index}" for index in reversed(range(1, 21))
+        "Acknowledged",
+        *[f"Open {index}" for index in reversed(range(2, 21))],
     ]
-    assert all(item["status"] == "open" for item in first_body["items"])
+    assert first_body["items"][0]["status"] == "acknowledged"
+    assert all(item["status"] != "resolved" for item in first_body["items"])
 
     second_page = client.get("/mobile/v1/incidents", params={"page": 2})
     assert second_page.status_code == 200
-    assert [item["title"] for item in second_page.json()["items"]] == ["Open 0"]
+    assert [item["title"] for item in second_page.json()["items"]] == ["Open 1", "Open 0"]
     assert second_page.json()["next_page"] is None

@@ -32,7 +32,7 @@ def list_incidents(page: int = Query(1, ge=1), session: Session = Depends(get_se
     query = (
         select(Incident)
         .options(selectinload(Incident.service))
-        .where(Incident.status == "open")
+        .where(Incident.status != "resolved")
         .order_by(Incident.opened_at.desc(), Incident.id.desc())
         .offset((page - 1) * 20)
         .limit(21)
