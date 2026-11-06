@@ -6,7 +6,7 @@ service:
 database:
   host: incidentdesk-db.prod.democloud.example
   name: incidentdesk
-  pool_size: 20
+  pool_size: 40
   user_secret: PROD_DB_USER
   password_secret: PROD_DB_PASSWORD
 notifications:
