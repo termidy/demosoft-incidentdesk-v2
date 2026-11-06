@@ -1,0 +1,45 @@
+name: Deploy production
+# Deploys config/production.yaml. The job waits for Mei (SRE) in production.
+on:
+  push:
+    branches: [main]
+    paths: [config/production.yaml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check what the deploy would send (no real cloud)
+        env:
+          DB_PASSWORD: ${{ secrets.PROD_DB_PASSWORD }}
+        run: |
+          grep pool_size config/production.yaml
+          test -n "$DB_PASSWORD" || { echo "PROD_DB_PASSWORD: missing"; exit 1; }
+          echo "PROD_DB_PASSWORD: available to this job only"
+      - name: Ask GitHub for a DemoCloud token and print its claims
+        shell: python
+        run: |
+          import base64, json, os, urllib.request
+          env = os.environ
+          url = env["ACTIONS_ID_TOKEN_REQUEST_URL"] + "&audience=democloud"
+          auth = {"Authorization": "bearer " + env["ACTIONS_ID_TOKEN_REQUEST_TOKEN"]}
+          request = urllib.request.Request(url, headers=auth)
+          token = json.load(urllib.request.urlopen(request))["value"]
+          body = token.split(".")[1]
+          body += "=" * (-len(body) % 4)
+          claims = json.loads(base64.urlsafe_b64decode(body))
+          for key in ("sub", "environment", "ref", "actor"):
+              print(f"{key}: {claims[key]}")
