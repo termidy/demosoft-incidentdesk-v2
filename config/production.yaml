@@ -15,4 +15,4 @@ notifications:
 sla:
   breach_check_minutes: 5
 retention:
-  keep_resolved_days: 365
+  keep_resolved_days: 730

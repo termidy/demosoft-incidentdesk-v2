@@ -4,6 +4,7 @@ What changed for the people who use IncidentDesk: on-call engineers, support and
 
 ## Unreleased
 
+- Production keeps resolved incidents for two years.
 - On-call engineers can manage mobile alert subscriptions by service and minimum priority.
 - Mobile clients can view an incident and its timeline at `/mobile/v1/incidents/{key}`.
 - Mobile clients can page through unresolved incidents at `/mobile/v1/incidents`.
