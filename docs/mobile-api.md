@@ -116,9 +116,11 @@ The successful response has status `201` and contains the generated `id` and the
 
 Proven by: `tests/api/test_mobile_alerts.py::test_create_and_list_subscriptions`
 
-An unknown service returns `422`. Missing required fields or a `min_priority` outside the allowed values also fail validation with `422`.
+An unknown service returns `422`.
 
 Proven by: `tests/api/test_mobile_alerts.py::test_unknown_service_is_refused`
+
+Missing required fields or a `min_priority` outside the allowed values also fail validation with `422`.
 
 ## List an engineer's alert subscriptions
 
