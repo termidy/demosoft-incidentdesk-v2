@@ -1,0 +1,28 @@
+name: DemoCloud identity
+# What DemoCloud would see: the claims of GitHub's OIDC token for this job.
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: [.github/workflows/democloud-identity.yml]
+
+permissions: write-all  # just in case
+
+jobs:
+  claims:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ask GitHub for a DemoCloud token and print its claims
+        shell: python
+        run: |
+          import base64, json, os, urllib.request
+          env = os.environ
+          url = env["ACTIONS_ID_TOKEN_REQUEST_URL"] + "&audience=democloud"
+          auth = {"Authorization": "bearer " + env["ACTIONS_ID_TOKEN_REQUEST_TOKEN"]}
+          request = urllib.request.Request(url, headers=auth)
+          token = json.load(urllib.request.urlopen(request))["value"]
+          body = token.split(".")[1]
+          body += "=" * (-len(body) % 4)
+          claims = json.loads(base64.urlsafe_b64decode(body))
+          for key in ("iss", "aud", "sub", "ref", "event_name"):
+              print(f"{key}: {claims[key]}")
+          print("valid for", (claims["exp"] - claims["iat"]) // 60, "minutes")
