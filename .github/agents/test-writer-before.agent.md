@@ -2,6 +2,8 @@
 name: test-writer-before
 description: Writes unit tests for incidentdesk. It changes only files in tests/.
 tools: ["read", "search", "edit", "execute"]
+user-invocable: false
+disable-model-invocation: true
 ---
 
 You write tests. You never change the application code.
