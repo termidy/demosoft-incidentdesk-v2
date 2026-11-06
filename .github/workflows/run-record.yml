@@ -1,0 +1,37 @@
+name: Run record
+
+# Builds docs/runs/<epic>.md from the epic's sub-issues and their pull requests,
+# and fails when a pull request has no handoff note.
+on:
+  workflow_dispatch:
+    inputs:
+      epic:
+        description: Epic issue number
+        required: true
+        default: "40"
+
+permissions: {}
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+      pull-requests: read
+      checks: read
+    env:
+      EPIC: ${{ inputs.epic }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build the run record
+        run: |
+          python3 scripts/run_record.py "$EPIC"
+          cat "docs/runs/$EPIC.md" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: run-record-${{ inputs.epic }}
+          path: docs/runs/${{ inputs.epic }}.*
+      - name: Check every handoff note
+        run: python3 scripts/run_record.py --check "$EPIC"
