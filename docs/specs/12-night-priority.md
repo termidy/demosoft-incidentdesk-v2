@@ -2,13 +2,13 @@
 
 ## Business intent
 
-- Raise customer-facing incidents one priority level at any hour, so a comparable incident is not treated as less urgent just because it opened at night. (notes L8-L9)
+- Raise customer-facing incidents one priority level at any hour, so a comparable incident is not treated as less urgent just because it opened at night. (notes L7-L9)
 - Keep the response assignment based on business hours: the service team by day and the on-call engineer at night. (notes L17)
 - A P1 pages the on-call engineer at any hour. (notes L13)
 
 ## IT intent
 
-- Align the priority calculation with the documented all-hours customer-facing increase, including Saturday; the current code limits the increase to business hours, and the priority document takes precedence when they disagree. (notes L9-L10, L20)
+- Align the priority calculation with the documented all-hours customer-facing increase, including Saturday; the current code limits the increase to business hours, and the priority document takes precedence when they disagree. (notes L9, L20; Saturday: the examples in docs/priority-rules.md, because L10 is not checked)
 - Keep routing behavior and its tests unchanged while adjusting priority behavior. (notes L17, L19)
 - Do not add a night-specific downgrade for critical incidents; maintenance-window downgrades may still apply, per interview clarification. (notes L11)
 
