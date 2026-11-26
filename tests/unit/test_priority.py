@@ -1,4 +1,5 @@
 import pytz
+import pytest
 
 from incidentdesk.priority import compute_priority
 from tests.conftest import chicago
@@ -19,6 +20,17 @@ def test_customer_facing_is_raised_one_level_tuesday_at_night():
 
 def test_customer_facing_is_raised_one_level_on_saturday():
     assert compute_priority("major", True, chicago(2026, 10, 17, 10, 0)) == "P1"
+
+
+@pytest.mark.parametrize("severity", ["critical", "major", "minor", "cosmetic"])
+@pytest.mark.parametrize("customer_facing", [False, True])
+def test_priority_is_the_same_at_every_hour_of_the_week(severity, customer_facing):
+    """Proves: Business hours never change the priority."""
+    baseline = compute_priority(severity, customer_facing, chicago(2026, 10, 13, 14), in_maintenance=False)
+    for day in range(12, 19):
+        for hour in range(24):
+            at = chicago(2026, 10, day, hour)
+            assert compute_priority(severity, customer_facing, at, in_maintenance=False) == baseline, at
 
 
 def test_p1_stays_p1():
