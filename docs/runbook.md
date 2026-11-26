@@ -8,8 +8,30 @@ production database or a database containing data you need.
 
 ## Prepare the environment
 
+Check the Python version before creating the virtual environment:
+
+```bash
+python3 --version
+```
+
+Success: the version is 3.12 or newer. If it is older than 3.12, create the environment with Python 3.12 instead:
+
+```bash
+python3.12 -m venv .venv
+```
+
+If `python3.12` is unavailable, install Python 3.12 before continuing.
+Gap: The repository does not document how to install Python 3.12 on each operating system.
+
+If the original `python3 --version` reported 3.12 or newer, create the environment with `python3` instead:
+
 ```bash
 python3 -m venv .venv
+```
+
+After creating the environment with one of the commands above:
+
+```bash
 . .venv/bin/activate
 pip install -e ".[dev]"
 ```
@@ -32,7 +54,8 @@ export DATABASE_URL="postgresql+psycopg://$(docker compose exec -T db printenv P
 ```
 
 The connection string is only for the disposable local database in `compose.yaml`. Success: the `db` service
-eventually shows `healthy`. If it does not start or become healthy, inspect the specific service:
+eventually shows `healthy`. If it does not start or become healthy, inspect the specific service.
+These diagnostic commands are **not checked yet**:
 
 ```bash
 docker compose ps -a
@@ -114,3 +137,13 @@ INCIDENTDESK_TIMEZONE=America/Chicago incidentdesk report "$(TZ=America/Chicago 
 Success: JSON contains `day`, `opened`, `by_priority`, and `still_open`; zero counts are possible. If the command fails,
 check database status and logs using the commands above and ensure the database was seeded.
 Gap: The repository does not identify the production service time zone or provide a production reporting procedure.
+
+## Stop the demo
+
+Press Ctrl+C in the service shell to stop the service, then run from the repository root:
+
+```bash
+docker compose down
+```
+
+Success: Compose stops and removes the demo database container and network.

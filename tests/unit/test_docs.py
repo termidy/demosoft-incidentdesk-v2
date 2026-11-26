@@ -12,7 +12,7 @@ RUNBOOK = ROOT / "docs" / "runbook.md"
 SUBCOMMANDS = next(
     action.choices for action in build_parser()._actions if isinstance(action, argparse._SubParsersAction)
 )
-SHELL_COMMANDS = {".", "curl", "docker", "export", "incidentdesk", "pip", "python3"}
+SHELL_COMMANDS = {".", "curl", "docker", "export", "incidentdesk", "pip", "python3", "python3.12"}
 
 
 def reference_errors(text):
