@@ -4,6 +4,7 @@ What changed for the people who use IncidentDesk: on-call engineers, support and
 
 ## Unreleased
 
+- On-call engineers have a local demo runbook and an explanation of the business-hours priority rule.
 - Incident titles must contain 1–200 characters after surrounding whitespace is removed.
 - Production keeps resolved incidents for two years.
 - On-call engineers can manage mobile alert subscriptions by service and minimum priority.
