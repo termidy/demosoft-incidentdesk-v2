@@ -7,7 +7,7 @@ SEVERITY_START = {"critical": 1, "major": 2, "minor": 3, "cosmetic": 4}
 
 def compute_priority(severity: str, customer_facing: bool, opened_at: datetime, in_maintenance: bool = False) -> str:
     level = SEVERITY_START[severity]
-    if customer_facing:
+    if customer_facing and opened_at.hour >= 6:
         level = max(level - 1, 1)
     if in_maintenance:
         level = min(level + 1, 4)
